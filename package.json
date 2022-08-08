@@ -1,0 +1,23 @@
+{
+  "name": "digital-nigeria-website",
+  "version": "1.0.0",
+  "description": "User-facing website for the Digital Nigeria Hybrid conference 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imubarak234/digital-nigeria-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imubarak234/digital-nigeria-website/issues"
+  },
+  "homepage": "https://github.com/imubarak234/digital-nigeria-website#readme",
+  "devDependencies": {
+    "hint": "^7.1.1"
+  }
+}

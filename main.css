@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header-form i {
+  color: white;
+  width: 25px;
+}
+
+#header-form button {
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  right: 0;
+}
+
+nav ul {
+  width: 60%;
+}

@@ -29,7 +29,8 @@ nav ul {
 
 #objectives .underline,
 #call-to-paper .underline,
-#dignitaries .underline {
+#dignitaries .underline,
+#speakers .underline {
   width: 20%;
   border-top: 2px solid green;
   padding: 1em 0;
@@ -44,6 +45,6 @@ nav ul {
   width: 70%;
 }
 
-#dignitaries h2 {
+body h2 {
   font-size: 2.5em;
 }

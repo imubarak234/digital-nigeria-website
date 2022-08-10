@@ -48,3 +48,12 @@ nav ul {
 body h2 {
   font-size: 2.5em;
 }
+
+#speakers .inner-card {
+  background: white;
+}
+
+#speakers .card {
+  border: none;
+  background-color: #d4e2dc;
+}

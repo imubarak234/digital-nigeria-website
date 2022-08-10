@@ -27,9 +27,11 @@ nav ul {
   border-radius: 4.5%;
 }
 
-#objectives .underline {
+#objectives .underline,
+#call-to-paper .underline {
   width: 20%;
   border-top: 2px solid green;
   padding: 1em 0;
   margin: 1em 0;
 }
+

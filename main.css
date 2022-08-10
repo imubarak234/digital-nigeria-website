@@ -90,3 +90,7 @@ body h2 {
   padding: 1em;
   font-size: 1.3em;
 }
+
+#agenda tbody th {
+  width: 30%;
+}

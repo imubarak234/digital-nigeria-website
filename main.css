@@ -30,7 +30,8 @@ nav ul {
 #objectives .underline,
 #call-to-paper .underline,
 #dignitaries .underline,
-#speakers .underline {
+#speakers .underline,
+#agenda .underline {
   width: 20%;
   border-top: 2px solid green;
   padding: 1em 0;
@@ -53,7 +54,39 @@ body h2 {
   background: white;
 }
 
+#speakers .row {
+  background-color: #d4e2dc;
+}
+
 #speakers .card {
   border: none;
-  background-color: #d4e2dc;
+}
+
+#agenda ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+#agenda ul li a:hover {
+  color: blue;
+}
+
+#agenda ul li{
+  display: flex;
+  flex-direction: column;
+}
+
+#agenda ul {
+  list-style: none;
+}
+
+#agenda .date {
+  padding-left: 5em;
+}
+
+#agenda table th,
+#agenda table td {
+  padding: 1em;
+  font-size: 1.3em;
 }

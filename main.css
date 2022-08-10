@@ -31,7 +31,8 @@ nav ul {
 #call-to-paper .underline,
 #dignitaries .underline,
 #speakers .underline,
-#agenda .underline {
+#agenda .underline,
+#patners .underline {
   width: 20%;
   border-top: 2px solid green;
   padding: 1em 0;
@@ -93,4 +94,23 @@ body h2 {
 
 #agenda tbody th {
   width: 30%;
+}
+
+#patners .carousel-control-prev,
+#patners .carousel-control-next,
+#carouselFade .carousel-control-prev,
+#carouselFade .carousel-control-next {
+  background-color: #333629;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#patners .carousel-control-next-icon,
+#patners .carousel-control-prev-icon,
+#carouselFade .carousel-control-prev-icon,
+#carouselFade .carousel-control-next-icon {
+  color: white;
 }

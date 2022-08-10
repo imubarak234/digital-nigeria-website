@@ -114,3 +114,10 @@ body h2 {
 #carouselFade .carousel-control-next-icon {
   color: white;
 }
+
+#contact img {
+  width: 13%;
+  background-color: aliceblue;
+  border-radius: 50%;
+  padding: 0.4em;
+}

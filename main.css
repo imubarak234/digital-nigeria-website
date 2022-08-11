@@ -121,3 +121,34 @@ body h2 {
   border-radius: 50%;
   padding: 0.4em;
 }
+
+body #carouselFade img {
+  height: 95vh;
+}
+
+body {
+  border: 4px solid blue;
+}
+
+@media screen and (max-width: 900px) {
+  body #carouselFade img {
+    height: 75vh;
+  }
+
+  #contact img {
+    width: 73%;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 0.4em;
+  }
+
+  #dignitaries #president {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body #carouselFade img {
+    height: 40vh;
+  }
+}

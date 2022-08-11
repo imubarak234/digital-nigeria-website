@@ -126,10 +126,6 @@ body h2 {
   color: white;
 }
 
-body {
-  border: 4px solid blue;
-}
-
 @media screen and (max-width: 900px) {
   #contact img {
     width: 73%;

@@ -136,6 +136,7 @@ body h2 {
 
 #register {
   background-image: url(./images/digital-Nigeriahome-page-down-slide-1024x435-1.jpg);
+  background-size: cover;
 }
 
 @media screen and (max-width: 900px) {

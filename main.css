@@ -139,6 +139,10 @@ body h2 {
   background-size: cover;
 }
 
+#carouselFade {
+  margin-top: 6em;
+}
+
 @media screen and (max-width: 900px) {
   #contact img {
     width: 73%;

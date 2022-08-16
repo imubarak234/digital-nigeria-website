@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --light_green: #d8f3dc;
+  --mid_green: #2d6a4f;
+  --dark_green: #081c15;
+}
+
 #header-form i {
   color: white;
   width: 25px;
@@ -137,6 +143,42 @@ body h2 {
 #register {
   background-image: url(./images/digital-Nigeriahome-page-down-slide-1024x435-1.jpg);
   background-size: cover;
+}
+
+#register .inner-reg {
+  width: 27em;
+  background-color: rgba(8, 28, 21, 0.6);
+  color: var(--light_green);
+  height: auto;
+  padding: 2em 2em;
+  border-radius: 3%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 25em; */
+}
+
+#register .inner-reg h4 {
+  font-size: 2em;
+  font-weight: 700;
+  padding: 1.5em 0.7em;
+}
+
+#register .inner-reg a {
+  text-decoration: none;
+  padding: 0.75em 0.7em;
+  display: block;
+  text-align: center;
+  color: var(--light_green);
+  font-size: 1.3em;
+  font-weight: 500;
+  width: 60%;
+  background-color: var(--mid_green);
+}
+
+#register .inner-reg a:hover {
+  background-color: var(--dark_green);
 }
 
 #carouselFade {

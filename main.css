@@ -10,6 +10,10 @@
   --dark_green: #081c15;
 }
 
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
 #header-form i {
   color: white;
   width: 25px;
@@ -91,14 +95,17 @@ body h2 {
   color: blue;
 }
 
-#agenda ul li {
+#agenda ul {
   display: flex;
-  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 2em 1.5em;
+  justify-content: center;
 }
 
-#agenda ul {
-  list-style: none;
-}
+/* #agenda ul {
+  
+} */
 
 #agenda .date {
   padding-left: 5em;
@@ -183,6 +190,20 @@ body h2 {
 
 #carouselFade {
   margin-top: 6em;
+}
+
+#agenda .inner-agenda {
+  border: 2px solid var(--light_green);
+  height: auto;
+}
+
+#agenda .inner-agenda .sections {
+  background-color: var(--light_green);
+}
+
+#agenda .inner-agenda .sections li {
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (max-width: 900px) {

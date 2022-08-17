@@ -230,6 +230,16 @@ body h2 {
   justify-content: flex-start;
 }
 
+#reg {
+  background-color: var(--light_green);
+  color: var(--dark_green);
+  padding: 0.7 1.3em;
+}
+
+#reg:hover {
+  background-color: var(--mid_green);
+}
+
 @media screen and (max-width: 900px) {
   #contact img {
     width: 73%;

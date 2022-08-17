@@ -2075,17 +2075,92 @@ day2.addEventListener("click", function(){
   });
 });
 
-document.addEventListener("DOMContentLoaded", function(){
-  window.addEventListener('scroll', function() {
-      if (window.scrollY > 50) {
-        document.getElementById('navbar_top').classList.add('fixed-top');
-        // add padding top to show content behind navbar
-        navbar_height = document.querySelector('.navbar').offsetHeight;
-        document.body.style.paddingTop = navbar_height + 'px';
-      } else {
-        document.getElementById('navbar_top').classList.remove('fixed-top');
-         // remove padding top from body
-        document.body.style.paddingTop = '0';
-      } 
-  });
-}); 
+// document.addEventListener("DOMContentLoaded", function(){
+//   window.addEventListener('scroll', function() {
+//       if (window.scrollY > 100) {
+//         // elem.classList.add("first","second","third");
+//         let navs = document.getElementById('naver')
+//         navs.classList.add('fixed-top', 'navbar-dark', 'bg-dark');
+//         navs.classList.remove('navbar-light', 'bg-light');
+//         navs.innerHTML = `<div class="container">
+//         <a class="navbar-brand" href="#">
+//           <img src="./images/digital_Nigeria_logo.png" alt="" width="93" height="70">
+//         </a>
+//         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+//           <span class="navbar-toggler-icon"></span>
+//         </button>
+//         <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+//           <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
+//             <li class="nav-item">
+//               <a class="nav-link active" aria-current="page" href="/">HOME</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#objectives">ABOUT</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#speakers">SPEAKERS</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#agenda">SCHEDULE</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#patners">SPONSORS</a>
+//             </li>
+//           </ul>
+          
+//           <form class="d-flex w-25 position-relative" id="header-form">
+//             <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
+//             <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
+//           </form>
+  
+//           <a href="#" class="btn" id="reg">REGISTER NOW</a>`
+//         // add padding top to show content behind navbar
+//         //navbar_height = document.querySelector('.navbar').offsetHeight;
+//         //document.body.style.paddingTop = navbar_height + 'px';
+//       } else {
+//         let navs = document.getElementById('naver')
+//         navs.classList.remove('fixed-top', 'navbar-dark', 'bg-dark');
+//         navs.classList.add('navbar-light', 'bg-light');
+//         navs.innerHTML = `<div class="container">
+//         <a class="navbar-brand" href="#">
+//           <img src="./images/digital_Nigeria_logo3.png" alt="" width="93" height="70">
+//         </a>
+//         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+//           <span class="navbar-toggler-icon"></span>
+//         </button>
+//         <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+//           <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
+//             <li class="nav-item">
+//               <a class="nav-link active" aria-current="page" href="/">HOME</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#objectives">ABOUT</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#speakers">SPEAKERS</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#agenda">SCHEDULE</a>
+//             </li>
+//             <li class="nav-item">
+//               <a class="nav-link" href="#patners">SPONSORS</a>
+//             </li>
+//           </ul>
+//           <form class="d-flex w-25 position-relative" id="header-form">
+//             <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
+//             <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
+//           </form>
+          
+//         </div>
+//       </div>`
+//          // remove padding top from body
+//         document.body.style.paddingTop = '0';
+//       } 
+//   });
+// }); 

@@ -1,20 +1,3 @@
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.031 };
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: uluru,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: uluru,
-    map: map,
-  });
-}
-
-window.initMap = initMap;
 
 const day1 = document.getElementById("day-1");
 const day2 = document.getElementById("day-2");
@@ -27,7 +10,16 @@ const section1 = document.getElementById("day1-section-1");
 const section2 = document.getElementById("day1-section-2");
 const section3 = document.getElementById("day1-section-3");
 
+let parent7 = section1.parentNode
+let parent8 = section2.parentNode
+let parent9 = section3.parentNode
+
 section1.addEventListener("click", function() {
+
+  parent7.style.borderBottom = '2px solid #081c15';
+  parent8.style.borderBottom = 'none';
+  parent9.style.borderBottom = 'none';
+
   tables.innerHTML = `<article>
   <div class="container-fluid">
     <div class="row">
@@ -290,6 +282,11 @@ section1.addEventListener("click", function() {
 });
 
 section2.addEventListener("click", function() {
+
+  parent7.style.borderBottom = 'none';
+  parent8.style.borderBottom = '2px solid #081c15';
+  parent9.style.borderBottom = 'none';
+
   tables.innerHTML = `<article>
   <div class="container-fluid">
     <div class="row">
@@ -500,6 +497,11 @@ section2.addEventListener("click", function() {
 });
 
 section3.addEventListener("click", function() {
+
+  parent7.style.borderBottom = 'none';
+  parent8.style.borderBottom = 'none';
+  parent9.style.borderBottom = '2px solid #081c15';
+
   tables.innerHTML = `<article>
   <div class="container-fluid">
     <div class="row">
@@ -744,7 +746,16 @@ day1.addEventListener("click", function(){
   let section12 = document.getElementById("day1-section-2");
   let section13 = document.getElementById("day1-section-3");
 
+  let parent1 = section11.parentNode
+  let parent2 = section12.parentNode
+  let parent3 = section13.parentNode
+
   section11.addEventListener("click", function() {
+
+    parent1.style.borderBottom = '2px solid #081c15';
+    parent2.style.borderBottom = 'none';
+    parent3.style.borderBottom = 'none';
+
     tables.innerHTML = `<article>
     <div class="container-fluid">
       <div class="row">
@@ -1007,6 +1018,11 @@ day1.addEventListener("click", function(){
   });
 
   section12.addEventListener("click", function() {
+
+    parent1.style.borderBottom = 'none';
+    parent2.style.borderBottom = '2px solid #081c15';
+    parent3.style.borderBottom = 'none';
+
     tables.innerHTML = `<article>
     <div class="container-fluid">
       <div class="row">
@@ -1217,6 +1233,11 @@ day1.addEventListener("click", function(){
   });
 
   section13.addEventListener("click", function() {
+
+    parent1.style.borderBottom = 'none';
+    parent2.style.borderBottom = 'none';
+    parent3.style.borderBottom = '2px solid #081c15';
+
     tables.innerHTML = `<article>
     <div class="container-fluid">
       <div class="row">
@@ -1462,8 +1483,17 @@ day2.addEventListener("click", function(){
   const section5 = document.getElementById("day1-section-5");
   const section6 = document.getElementById("day1-section-6");
 
+  let parent4 = section4.parentNode
+  let parent5 = section5.parentNode
+  let parent6 = section6.parentNode
+
 
   section4.addEventListener("click", function() {
+
+    parent4.style.borderBottom = '2px solid #081c15';
+    parent5.style.borderBottom = 'none';
+    parent6.style.borderBottom = 'none';
+
     tables.innerHTML = `<article>
     <div class="container-fluid">
       <div class="row">
@@ -1504,6 +1534,11 @@ day2.addEventListener("click", function(){
   });
 
   section5.addEventListener("click", function() {
+
+    parent4.style.borderBottom = 'none';
+    parent5.style.borderBottom = '2px solid #081c15';
+    parent6.style.borderBottom = 'none';
+
     tables.innerHTML = `<article>
     <div class="container-fluid">
       <div class="row">
@@ -1843,6 +1878,11 @@ day2.addEventListener("click", function(){
   });
 
   section6.addEventListener("click", function() {
+
+    parent4.style.borderBottom = 'none';
+    parent5.style.borderBottom = 'none';
+    parent6.style.borderBottom = '2px solid #081c15';
+
     tables.innerHTML = `<article>
     <div class="container-fluid">
       <div class="row">

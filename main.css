@@ -85,13 +85,14 @@ body h2 {
   border: none;
 }
 
-#agenda ul li a {
-  text-decoration: none;
+#agenda ul li button {
   color: black;
   font-size: 1.5em;
+  background-color: transparent;
+  border: none;
 }
 
-#agenda ul li a:hover {
+#agenda ul li button:hover {
   color: blue;
 }
 
@@ -204,6 +205,35 @@ body h2 {
 #agenda .inner-agenda .sections li {
   width: 100%;
   text-align: center;
+}
+
+#schedule a {
+  pointer-events: none;
+}
+
+#schedule .time-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#schedule .title-section,
+#schedule .speaker-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#schedule .row {
+  padding: 0em 1.5em;
+  height: 22vh;
+  border-bottom: 2px solid var(--light_green);
+}
+
+#schedule .row .sides {
+  border-left: 2px solid var(--light_green);
+  height: 70%;
 }
 
 @media screen and (max-width: 900px) {

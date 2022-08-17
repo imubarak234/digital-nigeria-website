@@ -197,10 +197,6 @@ body h2 {
   background-color: var(--dark_green);
 }
 
-#carouselFade {
-  margin-top: 6em;
-}
-
 #schedule a {
   pointer-events: none;
 }

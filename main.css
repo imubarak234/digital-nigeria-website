@@ -162,11 +162,11 @@ body h2 {
 }
 
 #register .inner-reg {
-  width: 27em;
+  width: 30%;
   background-color: rgba(8, 28, 21, 0.6);
   color: var(--light_green);
   height: auto;
-  padding: 2em 2em;
+  padding: 2em 1em;
   border-radius: 3%;
   text-align: center;
   display: flex;
@@ -178,7 +178,7 @@ body h2 {
 #register .inner-reg h4 {
   font-size: 2em;
   font-weight: 700;
-  padding: 1.5em 0.7em;
+  padding: 1.2em 0.5em 0.8em;
 }
 
 #register .inner-reg a {
@@ -217,7 +217,7 @@ body h2 {
 
 #schedule .row {
   padding: 0em 1.5em;
-  height: 22vh;
+  height: 25vh;
   border-bottom: 2px solid var(--light_green);
 }
 
@@ -255,6 +255,14 @@ body h2 {
   #dignitaries #president {
     width: 70%;
   }
+
+  #register .inner-reg {
+    width: 70%;
+  }
+
+  #schedule .row .sides {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -264,5 +272,9 @@ body h2 {
 
   #schedule .row .sides {
     display: none;
+  }
+
+  #register .inner-reg {
+    width: 100%;
   }
 }

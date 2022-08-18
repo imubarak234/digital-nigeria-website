@@ -309,4 +309,15 @@ video {
   #agenda #schedule .row {
     height: auto;
   }
+
+  #dignitaries .row img {
+    width: 65%;
+  }
+
+  #under-the-video .inner-under {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

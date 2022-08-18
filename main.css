@@ -50,8 +50,19 @@ nav ul {
   margin: 1em 0;
 }
 
-#contact .socials img{
-  
+#contact .socials a{
+  width: 20%;
+  border: 2px solid white;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+#contact .socials a:hover {
+  border: 3px solid var(--dark_green);
+}
+
+#contact .socials {
+  width: 60%;
 }
 
 #contact .underline {
@@ -132,6 +143,11 @@ body h2 {
 
 #agenda .inner-agenda .sections .first-section{
   border-bottom: 2px solid #081c15;
+}
+
+#agenda p,
+#agenda h4 {
+  font-weight: 600;
 }
 
 #patners .carousel-control-prev,

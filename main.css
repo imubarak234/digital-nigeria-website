@@ -260,13 +260,13 @@ body h2 {
   background-color: var(--mid_green);
 }
 
+video {
+  display: none;
+  width: 100%;
+}
+
 @media screen and (max-width: 900px) {
-  #contact img {
-    width: 73%;
-    background-color: aliceblue;
-    border-radius: 50%;
-    padding: 0.4em;
-  }
+
 
   body #carouselFade img {
     height: 75vh;
@@ -296,5 +296,9 @@ body h2 {
 
   #register .inner-reg {
     width: 100%;
+  }
+
+  #agenda #schedule .row {
+    height: auto;
   }
 }

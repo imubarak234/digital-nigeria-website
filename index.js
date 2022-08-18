@@ -2118,7 +2118,7 @@ document.addEventListener("DOMContentLoaded", function(){
   
           <a href="https://www.digitalnigeria.gov.ng/register/register.html" class="btn" id="reg" target="_blank">REGISTER NOW</a>`;
 
-          this.document.getElementById("up-button").innerHTML = `<a href="#carouselFade" class="">
+          this.document.getElementById("up-button").innerHTML = `<a href="#tops" class="">
           <img src="./images/arrow-up-circle.svg" alt="" width="50" height="50" class="img-fluid">
         </a>`;
         // add padding top to show content behind navbar
@@ -2183,9 +2183,6 @@ var vidElement2 = document.getElementById('video2');
     vidElement0.src = vidSource0;
     vidElement1.src = vidSource1;
     vidElement2.src = vidSource2;
-    
-
-    var rand = Math.floor((Math.random() * 3 )); //5 = length of vidsources (Start counting from 0)
     
     var vidRandom = document.getElementById("video2");
     

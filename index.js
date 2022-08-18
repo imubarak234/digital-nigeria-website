@@ -2116,7 +2116,7 @@ document.addEventListener("DOMContentLoaded", function(){
             <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
           </form>
   
-          <a href="#" class="btn" id="reg">REGISTER NOW</a>`;
+          <a href="https://www.digitalnigeria.gov.ng/register/register.html" class="btn" id="reg" target="_blank">REGISTER NOW</a>`;
 
           this.document.getElementById("up-button").innerHTML = `<a href="#carouselFade" class="">
           <img src="./images/arrow-up-circle.svg" alt="" width="50" height="50" class="img-fluid">

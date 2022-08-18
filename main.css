@@ -265,6 +265,14 @@ video {
   width: 100%;
 }
 
+#under-the-video .images-icon {
+  width: 15%;
+}
+
+#under-the-video {
+  background-color: var(--light_green);
+}
+
 @media screen and (max-width: 900px) {
 
 

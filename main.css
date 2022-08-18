@@ -50,15 +50,18 @@ nav ul {
   margin: 1em 0;
 }
 
-#dignitaries img {
-  width: 40%;
+#contact .socials img{
+  
 }
 
-#contact img {
-  width: 13%;
-  background-color: aliceblue;
-  border-radius: 50%;
-  padding: 0.4em;
+#contact .underline {
+  width: 20%;
+  border-top: 2px solid green;
+  padding: 0.5em 0;
+}
+
+#contact .footer-logo img {
+  width: 70%;
 }
 
 body #carouselFade img {
@@ -66,7 +69,11 @@ body #carouselFade img {
 }
 
 #dignitaries .row img {
-  width: 70%;
+  width: 45%;
+}
+
+#dignitaries img {
+  width: 25%;
 }
 
 body h2 {
@@ -161,36 +168,33 @@ body h2 {
   background-size: cover;
 }
 
+#register p,
+#register h4 {
+  color: white;
+  font-weight: 600;
+}
+
 #register .inner-reg {
-  width: 30%;
+  border-radius: 7%;
   background-color: rgba(8, 28, 21, 0.6);
-  color: var(--light_green);
-  height: auto;
-  padding: 2em 1em;
-  border-radius: 3%;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 25em; */
+  justify-content: center;
+  text-align: center;
+  min-height: 30vh;
 }
 
 #register .inner-reg h4 {
-  font-size: 2em;
-  font-weight: 700;
-  padding: 1.2em 0.5em 0.8em;
+  padding: 0.5em 1em;
 }
 
 #register .inner-reg a {
   text-decoration: none;
-  padding: 0.75em 0.7em;
-  display: block;
-  text-align: center;
-  color: var(--light_green);
-  font-size: 1.3em;
-  font-weight: 500;
-  width: 60%;
+  color: white;
   background-color: var(--mid_green);
+  padding: 1em 2em;
+  margin-top: 1em;
 }
 
 #register .inner-reg a:hover {

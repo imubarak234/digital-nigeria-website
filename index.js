@@ -2176,15 +2176,15 @@ var vidElement1 = document.getElementById('video1');
 var vidElement2 = document.getElementById('video2');
 
 
-    var vidSource0 = "./video/video.mp4";
+    var vidSource0 = "./video/video(1).mp4";
     var vidSource1 = "./video/video(2).mp4";
-    var vidSource2 = "./video/video(1).mp4";
+    var vidSource2 = "./video/video(3).mp4";
     
     vidElement0.src = vidSource0;
     vidElement1.src = vidSource1;
     vidElement2.src = vidSource2;
     
-    var vidRandom = document.getElementById("video2");
+    var vidRandom = document.getElementById("video0");
     
     vidRandom.style.display = "block";
    

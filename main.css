@@ -320,4 +320,8 @@ video {
     justify-content: center;
     align-items: center;
   }
+
+  nav form {
+    display: none;
+  }
 }

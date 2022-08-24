@@ -261,6 +261,7 @@ section1.addEventListener("click", function() {
     </div>
   </div>
 </article>
+<div id="patners-title"></div>
 <article>
   <div class="container-fluid">
     <div class="row border-bottom-0">
@@ -476,6 +477,7 @@ section2.addEventListener("click", function() {
     </div>
   </div>
 </article>
+<div id="patners-title"></div>
 <article>
   <div class="container-fluid">
     <div class="row border-bottom-0">
@@ -711,6 +713,7 @@ section3.addEventListener("click", function() {
     </div>
   </div>
 </article>
+<div id="patners-title"></div>
 <article>
   <div class="container-fluid">
     <div class="row border-bottom-0">
@@ -997,6 +1000,7 @@ day1.addEventListener("click", function(){
       </div>
     </div>
   </article>
+  <div id="patners-title"></div>
   <article>
     <div class="container-fluid">
       <div class="row border-bottom-0">
@@ -1212,6 +1216,7 @@ day1.addEventListener("click", function(){
       </div>
     </div>
   </article>
+  <div id="patners-title"></div>
   <article>
     <div class="container-fluid">
       <div class="row border-bottom-0">
@@ -1447,6 +1452,7 @@ day1.addEventListener("click", function(){
       </div>
     </div>
   </article>
+  <div id="patners-title"></div>
   <article>
     <div class="container-fluid">
       <div class="row border-bottom-0">
@@ -1512,7 +1518,7 @@ day2.addEventListener("click", function(){
       </div>
     </div>
   </article>
-  
+  <div id="patners-title"></div>
   <article>
     <div class="container-fluid">
       <div class="row border-bottom-0">
@@ -1857,6 +1863,7 @@ day2.addEventListener("click", function(){
       </div>
     </div>
   </article>
+  <div id="patners-title"></div>
   <article>
     <div class="container-fluid">
       <div class="row border-bottom-0">
@@ -2053,7 +2060,7 @@ day2.addEventListener("click", function(){
       </div>
     </div>
   </article>
-  
+  <div id="patners-title"></div>
   <article>
     <div class="container-fluid">
       <div class="row border-bottom-0">
@@ -2095,19 +2102,16 @@ document.addEventListener("DOMContentLoaded", function(){
               <a class="nav-link active" aria-current="page" href="/">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#objectives">ABOUT</a>
+              <a class="nav-link" href="#register">ABOUT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#speakers">SPEAKERS</a>
+              <a class="nav-link" href="#agenda-title">SCHEDULE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#agenda">SCHEDULE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#patners">SPONSORS</a>
+              <a class="nav-link" href="#patners-title">SPONSORS</a>
             </li>
           </ul>
           
@@ -2141,19 +2145,16 @@ document.addEventListener("DOMContentLoaded", function(){
               <a class="nav-link active" aria-current="page" href="/">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#objectives">ABOUT</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#speakers">SPEAKERS</a>
+              <a class="nav-link" href="#agenda-title">SCHEDULE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#agenda">SCHEDULE</a>
+              <a class="nav-link" href="#register">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#patners">SPONSORS</a>
+              <a class="nav-link" href="#patners-title">SPONSORS</a>
             </li>
           </ul>
           <form class="d-flex w-25 position-relative" id="header-form">

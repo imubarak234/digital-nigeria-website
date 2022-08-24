@@ -227,13 +227,19 @@ body h2 {
   align-items: center;
 }
 
-#schedule .title-section,
-#schedule .speaker-section {
+#schedule .title-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
+
+#schedule .speaker-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 #schedule .row {
   padding: 0em 1.5em;
@@ -244,6 +250,11 @@ body h2 {
 #schedule .row .sides {
   border-left: 2px solid var(--light_green);
   height: 70%;
+  padding-right: 0.7em;
+}
+
+#schedule .row div span {
+  font-size: 0.8em;
 }
 
 #schedule .row .time-section {

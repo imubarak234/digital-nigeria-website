@@ -17,7 +17,8 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 70px;
+  scroll-padding-top: 80px;
+  padding-top: 100px;
 }
 
 #header-form i {
@@ -417,13 +418,24 @@ video {
   #carouselInterval .slide-title a {
     font-size: 0.7em;
   }
+
+  nav #header-form {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 725px){
+
+  #under-the-video .inner-under {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 
 @media screen and (max-width: 450px) {
-  body #carouselFade img {
-    height: 40vh;
-  }
 
   #schedule .row .sides {
     display: none;
@@ -441,14 +453,5 @@ video {
     width: 65%;
   }
 
-  #under-the-video .inner-under {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
-  nav form {
-    display: none;
-  }
 }

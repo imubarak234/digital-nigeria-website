@@ -2086,41 +2086,41 @@ document.addEventListener("DOMContentLoaded", function(){
   window.addEventListener('scroll', function() {
       if (window.scrollY > 100) {
         // elem.classList.add("first","second","third");
-        let navs = document.getElementById('naver')
-        navs.classList.add('navbar-dark', 'bg-dark');
-        navs.classList.remove('navbar-light', 'bg-light');
-        navs.innerHTML = `<div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./images/digital_Nigeria_logo.png" alt="" width="93" height="70">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#register">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#agenda">SCHEDULE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#patners">SPONSORS</a>
-            </li>
-          </ul>
+        // let navs = document.getElementById('naver')
+        // navs.classList.add('navbar-dark', 'bg-dark');
+        // navs.classList.remove('navbar-light', 'bg-light');
+        // navs.innerHTML = `<div class="container">
+        // <a class="navbar-brand" href="#">
+        //   <img src="./images/digital_Nigeria_logo.png" alt="" width="93" height="70">
+        // </a>
+        // <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        //   <span class="navbar-toggler-icon"></span>
+        // </button>
+        // <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+        //   <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
+        //     <li class="nav-item">
+        //       <a class="nav-link active" aria-current="page" href="/">HOME</a>
+        //     </li>
+        //     <li class="nav-item">
+        //       <a class="nav-link" href="#register">ABOUT</a>
+        //     </li>
+        //     <li class="nav-item">
+        //       <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
+        //     </li>
+        //     <li class="nav-item">
+        //       <a class="nav-link" href="#agenda">SCHEDULE</a>
+        //     </li>
+        //     <li class="nav-item">
+        //       <a class="nav-link" href="#patners">SPONSORS</a>
+        //     </li>
+        //   </ul>
           
-          <form class="d-flex w-25 position-relative" id="header-form">
-            <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
-            <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
-          </form>
+        //   <form class="d-flex w-25 position-relative" id="header-form">
+        //     <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
+        //     <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
+        //   </form>
   
-          <a href="https://www.digitalnigeria.gov.ng/register/register.html" class="btn" id="reg" target="_blank">REGISTER NOW</a>`;
+        //   <a href="https://www.digitalnigeria.gov.ng/register/register.html" class="btn" id="reg" target="_blank">REGISTER NOW</a>`;
 
           this.document.getElementById("up-button").innerHTML = `<a href="#carouselInterval" class="">
           <img src="./images/arrow-up-circle.svg" alt="" width="50" height="50" class="img-fluid">
@@ -2129,41 +2129,41 @@ document.addEventListener("DOMContentLoaded", function(){
         //navbar_height = document.querySelector('.navbar').offsetHeight;
         //document.body.style.paddingTop = navbar_height + 'px';
       } else {
-        let navs = document.getElementById('naver')
-        navs.classList.remove('navbar-dark', 'bg-dark');
-        navs.classList.add('navbar-light', 'bg-light');
-        navs.innerHTML = `<div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./images/digital_Nigeria_logo3.png" alt="" width="93" height="70">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#agenda">SCHEDULE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#register">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#patners">SPONSORS</a>
-            </li>
-          </ul>
-          <form class="d-flex w-25 position-relative" id="header-form">
-            <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
-            <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
-          </form>
+      //   let navs = document.getElementById('naver')
+      //   navs.classList.remove('navbar-dark', 'bg-dark');
+      //   navs.classList.add('navbar-light', 'bg-light');
+      //   navs.innerHTML = `<div class="container">
+      //   <a class="navbar-brand" href="#">
+      //     <img src="./images/digital_Nigeria_logo3.png" alt="" width="93" height="70">
+      //   </a>
+      //   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      //     <span class="navbar-toggler-icon"></span>
+      //   </button>
+      //   <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+      //     <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
+      //       <li class="nav-item">
+      //         <a class="nav-link active" aria-current="page" href="/">HOME</a>
+      //       </li>
+      //       <li class="nav-item">
+      //         <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
+      //       </li>
+      //       <li class="nav-item">
+      //         <a class="nav-link" href="#agenda">SCHEDULE</a>
+      //       </li>
+      //       <li class="nav-item">
+      //         <a class="nav-link" href="#register">ABOUT</a>
+      //       </li>
+      //       <li class="nav-item">
+      //         <a class="nav-link" href="#patners">SPONSORS</a>
+      //       </li>
+      //     </ul>
+      //     <form class="d-flex w-25 position-relative" id="header-form">
+      //       <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
+      //       <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
+      //     </form>
           
-        </div>
-      </div>`;
+      //   </div>
+      // </div>`;
 
       this.document.getElementById("up-button").innerHTML = ``;
          // remove padding top from body
@@ -2171,6 +2171,13 @@ document.addEventListener("DOMContentLoaded", function(){
       } 
   });
 }); 
+
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
 
 var vidElement0 = document.getElementById('video0');
 var vidElement1 = document.getElementById('video1');

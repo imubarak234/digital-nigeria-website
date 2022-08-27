@@ -2122,7 +2122,7 @@ document.addEventListener("DOMContentLoaded", function(){
   
           <a href="https://www.digitalnigeria.gov.ng/register/register.html" class="btn" id="reg" target="_blank">REGISTER NOW</a>`;
 
-          this.document.getElementById("up-button").innerHTML = `<a href="#tops" class="">
+          this.document.getElementById("up-button").innerHTML = `<a href="#carouselInterval" class="">
           <img src="./images/arrow-up-circle.svg" alt="" width="50" height="50" class="img-fluid">
         </a>`;
         // add padding top to show content behind navbar
@@ -2167,7 +2167,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
       this.document.getElementById("up-button").innerHTML = ``;
          // remove padding top from body
-        // document.body.style.paddingTop = '0';
+        // carouselInterval
       } 
   });
 }); 

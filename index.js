@@ -2167,7 +2167,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
       this.document.getElementById("up-button").innerHTML = ``;
          // remove padding top from body
-        document.body.style.paddingTop = '0';
+        // document.body.style.paddingTop = '0';
       } 
   });
 }); 

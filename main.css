@@ -12,13 +12,12 @@
 
 body {
   font-family: 'Roboto Slab', serif;
-  padding-top: 40px;
+  padding-top: 95px;
 }
 
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
-  padding-top: 100px;
 }
 
 #header-form i {
@@ -311,6 +310,7 @@ video {
 #carouselInterval .carousel-item {
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .fade-in {

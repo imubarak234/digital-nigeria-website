@@ -2087,7 +2087,7 @@ document.addEventListener("DOMContentLoaded", function(){
       if (window.scrollY > 100) {
         // elem.classList.add("first","second","third");
         let navs = document.getElementById('naver')
-        navs.classList.add('fixed-top', 'navbar-dark', 'bg-dark');
+        navs.classList.add('navbar-dark', 'bg-dark');
         navs.classList.remove('navbar-light', 'bg-light');
         navs.innerHTML = `<div class="container">
         <a class="navbar-brand" href="#">
@@ -2108,10 +2108,10 @@ document.addEventListener("DOMContentLoaded", function(){
               <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#agenda-title">SCHEDULE</a>
+              <a class="nav-link" href="#agenda">SCHEDULE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#patners-title">SPONSORS</a>
+              <a class="nav-link" href="#patners">SPONSORS</a>
             </li>
           </ul>
           
@@ -2130,7 +2130,7 @@ document.addEventListener("DOMContentLoaded", function(){
         //document.body.style.paddingTop = navbar_height + 'px';
       } else {
         let navs = document.getElementById('naver')
-        navs.classList.remove('fixed-top', 'navbar-dark', 'bg-dark');
+        navs.classList.remove('navbar-dark', 'bg-dark');
         navs.classList.add('navbar-light', 'bg-light');
         navs.innerHTML = `<div class="container">
         <a class="navbar-brand" href="#">
@@ -2148,13 +2148,13 @@ document.addEventListener("DOMContentLoaded", function(){
               <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#agenda-title">SCHEDULE</a>
+              <a class="nav-link" href="#agenda">SCHEDULE</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#register">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#patners-title">SPONSORS</a>
+              <a class="nav-link" href="#patners">SPONSORS</a>
             </li>
           </ul>
           <form class="d-flex w-25 position-relative" id="header-form">

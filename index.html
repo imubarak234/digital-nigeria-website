@@ -18,7 +18,7 @@
 <body>
   <!-- Start header section -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="naver">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="naver">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="./images/digital_Nigeria_logo3.png" alt="" width="113" height="90">
@@ -32,16 +32,16 @@
             <a class="nav-link active" aria-current="page" href="/">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
+            <a class="nav-link" href="#dignitaries" title="Dignitaries">DIGNITARIES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#register">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#agenda-title">SCHEDULE</a>
+            <a class="nav-link" href="#agenda">SCHEDULE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#patners-title">SPONSORS</a>
+            <a class="nav-link" href="#patners">SPONSORS</a>
           </li>
         </ul>
         <form class="d-flex w-25 position-relative" id="header-form">
@@ -92,17 +92,17 @@
     </div>
     
   </div> -->
-  
+
 
   <div id="carouselInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active d-flex" data-bs-interval="6000">
+      <div class="carousel-item active d-flex" data-bs-interval="600000">
         <video autoplay loop muted>
           <source src="./video/video(1).mp4" type="video/mp4">
         </video>
-        <div class="slide-title d-flex flex-column justify-content-end align-items-start text-light">
-          <h2 class="p-3">DIGITAL NIGERIA CONFERENCE</h2>
-          <h5 class="p-3">Theme: Digital Transformation A Path to Sustainable Digital Economy.</h5>
+        <div class="slide-title d-flex flex-column justify-content-center align-items-center text-light">
+          <h2 class="p-3 fade-in">DIGITAL NIGERIA CONFERENCE</h2>
+          <h5 class="p-3 fade-in">Theme: Digital Transformation A Path to Sustainable Digital Economy.</h5>
           <a href="https://www.digitalnigeria.gov.ng/register/register.html" class="btn btn-lg fw-bolder" id="reg" target="_blank">REGISTER NOW</a>
         </div>
       </div>
@@ -223,9 +223,9 @@
 
   <!-- Start dignitaries section -->
 
-  <div class="mb-5 text-center bg-light" id="dignitaries">
-    <div class="d-flex flex-column align-items-center justify-content-center">
-      <h2 class="fw-bolder">Dignitaries</h2>
+  <section class="mb-5 text-center bg-light" id="dignitaries">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-3">
+      <h2 class="fw-bolder pt-3">Dignitaries</h2>
       <div class="underline"></div>
     </div>
     
@@ -242,7 +242,7 @@
         </div>
       </div>
     </div> 
-  </div>
+  </section>
   
   <!-- End dignitaries section -->
 
@@ -709,20 +709,20 @@
       <div class="row p-3">
         <div class="col-md-8 ">
           <h4>ABOUT US</h4>
-          <span></span>
+          <div class="underline"></div>
           <p>The Digital Nigeria International Conference and Exhibition 	 formerly known as eNigeria International Conference 
             and Exhibitions is the flagship awareness programme in the Digital Economy sector. The annual event was re-branded as 
             Digital Nigeria to further expand the scope in line with the core objectives of the National Digital Economy Policy and 
             Strategy (NDEPS). The aim is to brainstorm on contemporary issues of relevance across the globe to address Nigerian challenges 
             for sustainable socioeconomic development. It is a veritable platform for Information and Communications Technology (ICT) 
             awareness creation, development of the appropriate framework, and setting goals for best practices.</p>
-            <p>The 2022 edition will however include a one-day summit on blockchain technology amongst other activities like 
-              the digital Nigeria day and masterclasses. Discussions will focus on the following sub-themes like Digital 
-              Transformation, Data Protection, National Security, Emerging Technologies, Digital Inclusion, Innovation, 
-              and Entrepreneurship.</p>
-              <p>The conference will also provide a platform for networking opportunities, cocreation and collaboration, 
-                sharing experiences, mentorship and knowledge circulation, stimulate conversation on emerging technology 
-                and incentives and export for tech startup</p>
+          <p>The 2022 edition will however include a one-day summit on blockchain technology amongst other activities like 
+            the digital Nigeria day and masterclasses. Discussions will focus on the following sub-themes like Digital 
+            Transformation, Data Protection, National Security, Emerging Technologies, Digital Inclusion, Innovation, 
+            and Entrepreneurship.</p>
+          <p>The conference will also provide a platform for networking opportunities, cocreation and collaboration, 
+            sharing experiences, mentorship and knowledge circulation, stimulate conversation on emerging technology 
+            and incentives and export for tech startup</p>
           <p>There would be provision for both physical exhibition space for ICT service providers to exhibit their products 
             and services at the venue. In addition, sponsors and other partners in the oil and gas, energy, and banking 
             sectors will be encouraged to exhibit their products and services. About 25-30 exhibitors are expected to 
@@ -1113,7 +1113,7 @@
         <div class="col-md-4 p-3">
           <h3 class="h3 fw-bolder">SOCIAL NETWORK</h3>
           <div class="underline"></div>
-          <div class="socials d-flex justify-content-around flex-wrap border">
+          <div class="socials d-flex justify-content-around flex-wrap">
             <a href="#"><img src="./images/envelope-fill.svg" alt="mail" class="img-fluid w-100"></a>
             <a href="#"><img src="./images/facebook.svg" alt="facebook" class="img-fluid w-100"></a>
             <a href="#"><img src="./images/whatsapp.svg" alt="WhatsApp" class="img-fluid w-100"></a>

@@ -12,10 +12,12 @@
 
 body {
   font-family: 'Roboto Slab', serif;
+  padding-top: 40px;
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 70px;
 }
 
 #header-form i {
@@ -52,6 +54,12 @@ nav ul {
   border-top: 2px solid green;
   padding: 1em 0;
   margin: 1em 0;
+}
+
+#register .underline {
+  width: 20%;
+  border-top: 2px solid green;
+  padding: 0.7em 0 0.7em;
 }
 
 #contact .socials a{
@@ -291,13 +299,39 @@ video {
 
 #carouselInterval .slide-title h2,
 #carouselInterval .slide-title h5 {
-  background-color: rgba(8, 28, 21, 0.6);
-  font-weight: 800;
+  background-color: rgba(8, 28, 21, 0.8);
+  font-weight: bolder;
+}
+
+#carouselInterval .slide-title h2 {
+  font-size: 3em;
 }
 
 #carouselInterval .carousel-item {
   justify-content: center;
   align-items: center;
+}
+
+.fade-in {
+	-webkit-animation: fade-in 2.2s ease-in-out 0.2s both;
+	        animation: fade-in 2.2s ease-in-out 0.2s both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #under-the-video .images-icon {

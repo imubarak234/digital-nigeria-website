@@ -26,11 +26,11 @@ section1.addEventListener("click", function() {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p> 07:00AM - 09:00AM</p>
+          <p>08:30AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>REGISTRATION</h4>
+        <h4>REGISTRATION OF PARTICIPANTS</h4>
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -44,7 +44,7 @@ section1.addEventListener("click", function() {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p> 09:00AM - 10:00AM</p>
+          <p>09:00AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -62,11 +62,11 @@ section1.addEventListener("click", function() {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p> 10:00AM - 10:05AM</p>
+          <p>09:55AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>ARRIVAL OF MR. PRESIDENT AND NATIONAL ANTHEM</h4>
+        <h4>ARRIVAL OF MR. PRESIDENT, GCFR & HIS ENTOURAGE</h4>
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -80,122 +80,7 @@ section1.addEventListener("click", function() {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p> 10:05AM - 10:10AM</p>
-        </div> 
-      </div>
-      <div class="col-md-5 title-section">
-        <h4>WELCOME ADDRESS AND PROGRAMME HIGHLIGHT</h4>
-        <P>Welcome Address and Programme Highlight Kashifu Inuwa Abdullahi, CCIE, Director General/CEO, 
-          National Information Technology Development Agency (NITDA)</P>
-      </div>
-      <div class="col-md-4 speaker-section">
-        <span class="sides"></span>
-      </div>
-    </div>
-  </div>
-</article>
-<article>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 time-section">
-        <div class="d-flex">
-          <i class="bi bi-clock px-2"></i>
-          <p> 10:10AM - 10:20AM</p>
-        </div> 
-      </div>
-      <div class="col-md-5 title-section">
-        <h4>REMARKS BY CHIEF HOST</h4>
-        <p>Remarks by Chief Host Isa Ali Ibrahim Pantami, Ph.D., FNCS, FBCS, FIIM, Honorable Minister, 
-          Federal Ministry of Communications & Digital Economy</p>
-      </div>
-      <div class="col-md-4 speaker-section">
-        <span class="sides"></span>
-      </div>
-    </div>
-  </div>
-</article>
-<article>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 time-section">
-        <div class="d-flex">
-          <i class="bi bi-clock px-2"></i>
-          <p> 10:20AM - 10:25AM</p>
-        </div> 
-      </div>
-      <div class="col-md-5 title-section">
-        <h4>START-UP PITCHES</h4>
-      </div>
-      <div class="col-md-4 speaker-section">
-        <span class="sides"></span>
-      </div>
-    </div>
-  </div>
-</article>
-<article>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 time-section">
-        <div class="d-flex">
-          <i class="bi bi-clock px-2"></i>
-          <p> 10:25AM - 10:30AM</p>
-        </div> 
-      </div>
-      <div class="col-md-5 title-section">
-        <h4>GOODWILL MESSAGES</h4>
-      </div>
-      <div class="col-md-4 speaker-section">
-        <span class="sides"></span>
-      </div>
-    </div>
-  </div>
-</article>
-<article>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 time-section">
-        <div class="d-flex">
-          <i class="bi bi-clock px-2"></i>
-          <p> 10:30AM - 10:45AM</p>
-        </div> 
-      </div>
-      <div class="col-md-5 title-section">
-        <h4>KEYNOTE SPEAKER</h4>
-        <p>Keynote Speaker Ms Funke Opeke Managing Director, Main One Limited Lagos.</p>
-      </div>
-      <div class="col-md-4 speaker-section">
-        <span class="sides"></span>
-      </div>
-    </div>
-  </div>
-</article>
-<article>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 time-section">
-        <div class="d-flex">
-          <i class="bi bi-clock px-2"></i>
-          <p> 10:45AM - 10:55AM</p>
-        </div> 
-      </div>
-      <div class="col-md-5 title-section">
-        <h4>OFFICIAL OPENING AND UNVEILING OF DIGITAL ECONOMY STRATEGY AND ACTION FOR DIGITAL NIGERIA.</h4>
-        <p>His Excellency, President Muhammadu Buhari, GCFR President and Commander-in-Chief 
-          of the Armed Forces Federal Republic of Nigeria</p>
-      </div>
-      <div class="col-md-4 speaker-section">
-        <span class="sides"></span>
-      </div>
-    </div>
-  </div>
-</article>
-<article>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 time-section">
-        <div class="d-flex">
-          <i class="bi bi-clock px-2"></i>
-          <p> 10:55AM - 11:00AM</p>
+          <p>10:00AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -213,11 +98,124 @@ section1.addEventListener("click", function() {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p> 11:00AM - 11:05AM</p>
+          <p>10:15AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>GROUP PHOTO</h4>
+        <h4>OPENING SPEECH AND PROGRAM HIGHLIGHT</h4>
+        
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div>
+          <p>Kashifu Inuwa Adbullahi</p>
+          <p>Director-General, National Information Technology Development Agency</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:30AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>WELCOME ADDRESS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div>
+          <p>Prof. Isa Ali Ibrahim (Pantami) <span>FNCS, FBCS, FIIM, MCPN</span> </p>
+
+          <p>Hon. Minister, Federal Ministry of Communications and Digital Economy.</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:50AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>KEYNOTE ADDRESS</h4>
+        
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>
+        <p>Funke Opeke MD Main one</p>
+        <p>Juliet Ehiueman Chiazor Country Manager, Google Nigeria</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:20AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>OFFICIAL OPENING ADDRESS BY SPECIAL GUEST OF HONOUR</h4>
+        
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>President Muhammadu Buhari, GCFR Commander in Chief, Federal Republic of Nigeria</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>12:00PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>VOTE OF THANKS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div>
+          <p>By Mr Alor Nwankwo</p>
+          <p>Permanent Secretary Federal Ministry of Communication and Digital Economy</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>12:10PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>EXHIBITION/MINI TOUR OF EXHIBITION BOOTHS</h4>
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -231,11 +229,11 @@ section1.addEventListener("click", function() {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p> 11:05AM - 11:10AM</p>
+          <p>12:25PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>TOUR OF EXHIBITIONS</h4>
+        <h4>GROUP PHOTOGRAPH</h4>
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -249,11 +247,11 @@ section1.addEventListener("click", function() {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p> 11:15AM</p>
+          <p>12:30PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>DEPARTURE OF PRESIDENT</h4>
+        <h4>DEPARTURE OF MR. PRESIDENT AND ENTOURAGE</h4>
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -268,7 +266,7 @@ section1.addEventListener("click", function() {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p> 11:15AM - 12:00AM</p>
+          <p>12:35PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -765,11 +763,11 @@ day1.addEventListener("click", function(){
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p> 07:00AM - 09:00AM</p>
+            <p>08:30AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>REGISTRATION</h4>
+          <h4>REGISTRATION OF PARTICIPANTS</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -783,7 +781,7 @@ day1.addEventListener("click", function(){
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p> 09:00AM - 10:00AM</p>
+            <p>09:00AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -801,11 +799,11 @@ day1.addEventListener("click", function(){
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p> 10:00AM - 10:05AM</p>
+            <p>09:55AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>ARRIVAL OF MR. PRESIDENT AND NATIONAL ANTHEM</h4>
+          <h4>ARRIVAL OF MR. PRESIDENT, GCFR & HIS ENTOURAGE</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -819,122 +817,7 @@ day1.addEventListener("click", function(){
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p> 10:05AM - 10:10AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>WELCOME ADDRESS AND PROGRAMME HIGHLIGHT</h4>
-          <P>Welcome Address and Programme Highlight Kashifu Inuwa Abdullahi, CCIE, Director General/CEO, 
-            National Information Technology Development Agency (NITDA)</P>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p> 10:10AM - 10:20AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>REMARKS BY CHIEF HOST</h4>
-          <p>Remarks by Chief Host Isa Ali Ibrahim Pantami, Ph.D., FNCS, FBCS, FIIM, Honorable Minister, 
-            Federal Ministry of Communications & Digital Economy</p>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p> 10:20AM - 10:25AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>START-UP PITCHES</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p> 10:25AM - 10:30AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>GOODWILL MESSAGES</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p> 10:30AM - 10:45AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>KEYNOTE SPEAKER</h4>
-          <p>Keynote Speaker Ms Funke Opeke Managing Director, Main One Limited Lagos.</p>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p> 10:45AM - 10:55AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>OFFICIAL OPENING AND UNVEILING OF DIGITAL ECONOMY STRATEGY AND ACTION FOR DIGITAL NIGERIA.</h4>
-          <p>His Excellency, President Muhammadu Buhari, GCFR President and Commander-in-Chief 
-            of the Armed Forces Federal Republic of Nigeria</p>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p> 10:55AM - 11:00AM</p>
+            <p>10:00AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -952,11 +835,124 @@ day1.addEventListener("click", function(){
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p> 11:00AM - 11:05AM</p>
+            <p>10:15AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>GROUP PHOTO</h4>
+          <h4>OPENING SPEECH AND PROGRAM HIGHLIGHT</h4>
+          
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div>
+            <p>Kashifu Inuwa Adbullahi</p>
+            <p>Director-General, National Information Technology Development Agency</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>10:30AM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>WELCOME ADDRESS</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div>
+            <p>Prof. Isa Ali Ibrahim (Pantami) <span>FNCS, FBCS, FIIM, MCPN</span> </p>
+
+            <p>Hon. Minister, Federal Ministry of Communications and Digital Economy.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>10:50AM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>KEYNOTE ADDRESS</h4>
+          
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>
+          <p>Funke Opeke MD Main one</p>
+          <p>Juliet Ehiueman Chiazor Country Manager, Google Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>11:20AM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>OFFICIAL OPENING ADDRESS BY SPECIAL GUEST OF HONOUR</h4>
+          
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>President Muhammadu Buhari, GCFR Commander in Chief, Federal Republic of Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>12:00PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>VOTE OF THANKS</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div>
+            <p>By Mr Alor Nwankwo</p>
+            <p>Permanent Secretary Federal Ministry of Communication and Digital Economy</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>12:10PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>EXHIBITION/MINI TOUR OF EXHIBITION BOOTHS</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -970,11 +966,11 @@ day1.addEventListener("click", function(){
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p> 11:05AM - 11:10AM</p>
+            <p>12:25PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>TOUR OF EXHIBITIONS</h4>
+          <h4>GROUP PHOTOGRAPH</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -988,11 +984,11 @@ day1.addEventListener("click", function(){
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p> 11:15AM</p>
+            <p>12:30PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DEPARTURE OF PRESIDENT</h4>
+          <h4>DEPARTURE OF MR. PRESIDENT AND ENTOURAGE</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1007,7 +1003,7 @@ day1.addEventListener("click", function(){
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p> 11:15AM - 12:00AM</p>
+            <p>12:35PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">

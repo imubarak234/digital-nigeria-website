@@ -316,11 +316,17 @@ video {
 }
 
 #carouselInterval #first-video {
-  background-color: rgba(8, 28, 21, 0.8);
+  
   z-index: 1000;
   width: 100%;
   height: 100%;
   position: absolute;
+}
+
+#carouselInterval #first-video .inner-video {
+  background-color: rgba(8, 28, 21, 0.8);
+  width: 100%;
+  height: 100%;
 }
 
 .fade-in {

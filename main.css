@@ -133,6 +133,7 @@ body h2 {
   padding: 0 0.7em;
   height: 13vh;
   justify-content: center;
+  
 }
 
 #agenda .inner-agenda {
@@ -261,6 +262,7 @@ body h2 {
   padding: 0em 1.5em;
   height: 25vh;
   border-bottom: 2px solid var(--light_green);
+  font-family: 'Montserrat', sans-serif;
 }
 
 #schedule .row .sides {
@@ -311,6 +313,14 @@ video {
   justify-content: center;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+#carouselInterval #first-video {
+  background-color: rgba(8, 28, 21, 0.8);
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .fade-in {

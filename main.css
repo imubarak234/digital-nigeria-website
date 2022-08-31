@@ -62,7 +62,7 @@ nav ul {
   padding: 0.7em 0 0.7em;
 }
 
-#contact .socials a{
+#contact .socials a {
   width: 20%;
   border: 2px solid white;
   padding: 0.5em;
@@ -133,7 +133,6 @@ body h2 {
   padding: 0 0.7em;
   height: 13vh;
   justify-content: center;
-  
 }
 
 #agenda .inner-agenda {
@@ -154,7 +153,7 @@ body h2 {
   align-items: center;
 }
 
-#agenda .inner-agenda .sections .first-section{
+#agenda .inner-agenda .sections .first-section {
   border-bottom: 2px solid #081c15;
 }
 
@@ -257,9 +256,8 @@ body h2 {
   align-items: center;
 }
 
-
 #schedule .row {
-  padding: 0em 1.5em;
+  padding: 0 1.5em;
   height: 25vh;
   border-bottom: 2px solid var(--light_green);
   font-family: 'Montserrat', sans-serif;
@@ -282,7 +280,7 @@ body h2 {
 #reg {
   background-color: var(--light_green);
   color: var(--dark_green);
-  padding: 0.7 1.3em;
+  padding: 0.7em 1.3em;
 }
 
 #reg:hover {
@@ -295,8 +293,9 @@ video {
 
 #carouselInterval .slide-title {
   position: absolute;
-  width: 70%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 28, 21, 0.3);
 }
 
 #carouselInterval .slide-title h2,
@@ -316,67 +315,66 @@ video {
 }
 
 #carouselInterval #first-video {
-  
   z-index: 1000;
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-#carouselInterval #first-video .inner-video {
-  background-color: rgba(8, 28, 21, 0.8);
-  width: 100%;
-  height: 100%;
-}
-
 .fade-in {
-	-webkit-animation: fade-in 2.2s ease-in-out 0.2s both;
-	        animation: fade-in 2.2s ease-in-out 0.2s both;
+  -webkit-animation: fade-in 2.2s ease-in-out 0.2s both;
+  animation: fade-in 2.2s ease-in-out 0.2s both;
 }
 
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 .text-focus-in {
-	-webkit-animation: text-focus-in 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
-	        animation: text-focus-in 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
+  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  animation: text-focus-in 1.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
 
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
+
   100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
     opacity: 1;
   }
 }
+
 @keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
+
   100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
     opacity: 1;
   }
 }
@@ -390,8 +388,6 @@ video {
 }
 
 @media screen and (max-width: 900px) {
-
-
   body #carouselFade img {
     height: 75vh;
   }
@@ -409,8 +405,7 @@ video {
   }
 }
 
-@media screen and (max-width: 825px){
- 
+@media screen and (max-width: 825px) {
   #carouselInterval .slide-title h2 {
     font-size: 1.5em;
   }
@@ -419,7 +414,6 @@ video {
   #carouselInterval .slide-title a {
     font-size: 1em;
   }
-
 }
 
 @media screen and (max-width: 585px) {
@@ -440,8 +434,7 @@ video {
   }
 }
 
-@media screen and (max-width: 725px){
-
+@media screen and (max-width: 725px) {
   #under-the-video .inner-under {
     display: flex;
     flex-direction: column;
@@ -450,9 +443,7 @@ video {
   }
 }
 
-
 @media screen and (max-width: 450px) {
-
   #schedule .row .sides {
     display: none;
   }
@@ -468,6 +459,4 @@ video {
   #dignitaries .row img {
     width: 65%;
   }
-
-
 }

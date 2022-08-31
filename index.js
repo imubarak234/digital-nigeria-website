@@ -1,22 +1,20 @@
+const day1 = document.getElementById('day-1');
+const day2 = document.getElementById('day-2');
+const day3 = document.getElementById('day-3');
 
-const day1 = document.getElementById("day-1");
-const day2 = document.getElementById("day-2");
-const day3 = document.getElementById("day-3");
+const section = document.getElementById('sections-container');
 
-const section = document.getElementById("sections-container");
+const tables = document.getElementById('schedule');
 
-const tables = document.getElementById("schedule");
+const section1 = document.getElementById('day1-section-1');
+const section2 = document.getElementById('day1-section-2');
+const section3 = document.getElementById('day1-section-3');
 
-const section1 = document.getElementById("day1-section-1");
-const section2 = document.getElementById("day1-section-2");
-const section3 = document.getElementById("day1-section-3");
+const parent7 = section1.parentNode;
+const parent8 = section2.parentNode;
+const parent9 = section3.parentNode;
 
-let parent7 = section1.parentNode
-let parent8 = section2.parentNode
-let parent9 = section3.parentNode
-
-section1.addEventListener("click", function() {
-
+section1.addEventListener('click', () => {
   parent7.style.borderBottom = '2px solid #081c15';
   parent8.style.borderBottom = 'none';
   parent9.style.borderBottom = 'none';
@@ -278,11 +276,10 @@ section1.addEventListener("click", function() {
       </div>
     </div>
   </div>
-</article>`
+</article>`;
 });
 
-section2.addEventListener("click", function() {
-
+section2.addEventListener('click', () => {
   parent7.style.borderBottom = 'none';
   parent8.style.borderBottom = '2px solid #081c15';
   parent9.style.borderBottom = 'none';
@@ -442,11 +439,10 @@ section2.addEventListener("click", function() {
       </div>
     </div>
   </div>
-</article>`
+</article>`;
 });
 
-section3.addEventListener("click", function() {
-
+section3.addEventListener('click', () => {
   parent7.style.borderBottom = 'none';
   parent8.style.borderBottom = 'none';
   parent9.style.borderBottom = '2px solid #081c15';
@@ -591,7 +587,7 @@ section3.addEventListener("click", function() {
 
 <article>
   <div class="container-fluid">
-    <div class="row border-bottom-0">
+    <div class="row">
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
@@ -782,10 +778,10 @@ section3.addEventListener("click", function() {
       </div>
     </div>
   </div>
-</article>`
+</article>`;
 });
 
-day1.addEventListener("click", function(){
+day1.addEventListener('click', () => {
   section.innerHTML = `<li>
   <button id="day1-section-1">SESSION 1</button>
   </li>
@@ -794,18 +790,17 @@ day1.addEventListener("click", function(){
   </li>
   <li>
     <button id="day1-section-3">SESSION 3</button>
-  </li>`
+  </li>`;
 
-  let section11 = document.getElementById("day1-section-1");
-  let section12 = document.getElementById("day1-section-2");
-  let section13 = document.getElementById("day1-section-3");
+  const section11 = document.getElementById('day1-section-1');
+  const section12 = document.getElementById('day1-section-2');
+  const section13 = document.getElementById('day1-section-3');
 
-  let parent1 = section11.parentNode
-  let parent2 = section12.parentNode
-  let parent3 = section13.parentNode
+  const parent1 = section11.parentNode;
+  const parent2 = section12.parentNode;
+  const parent3 = section13.parentNode;
 
-  section11.addEventListener("click", function() {
-
+  section11.addEventListener('click', () => {
     parent1.style.borderBottom = '2px solid #081c15';
     parent2.style.borderBottom = 'none';
     parent3.style.borderBottom = 'none';
@@ -1067,11 +1062,10 @@ day1.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 
-  section12.addEventListener("click", function() {
-
+  section12.addEventListener('click', () => {
     parent1.style.borderBottom = 'none';
     parent2.style.borderBottom = '2px solid #081c15';
     parent3.style.borderBottom = 'none';
@@ -1283,11 +1277,10 @@ day1.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 
-  section13.addEventListener("click", function() {
-
+  section13.addEventListener('click', () => {
     parent1.style.borderBottom = 'none';
     parent2.style.borderBottom = 'none';
     parent3.style.borderBottom = '2px solid #081c15';
@@ -1519,11 +1512,11 @@ day1.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 });
 
-day2.addEventListener("click", function(){
+day2.addEventListener('click', () => {
   section.innerHTML = `<li>
   <button id="day1-section-4">SESSION ONE</button>
   </li>
@@ -1532,19 +1525,17 @@ day2.addEventListener("click", function(){
   </li>
   <li>
     <button id="day1-section-6">SESSION THREE</button>
-  </li>`
+  </li>`;
 
-  const section4 = document.getElementById("day1-section-4");
-  const section5 = document.getElementById("day1-section-5");
-  const section6 = document.getElementById("day1-section-6");
+  const section4 = document.getElementById('day1-section-4');
+  const section5 = document.getElementById('day1-section-5');
+  const section6 = document.getElementById('day1-section-6');
 
-  let parent4 = section4.parentNode
-  let parent5 = section5.parentNode
-  let parent6 = section6.parentNode
+  const parent4 = section4.parentNode;
+  const parent5 = section5.parentNode;
+  const parent6 = section6.parentNode;
 
-
-  section4.addEventListener("click", function() {
-
+  section4.addEventListener('click', () => {
     parent4.style.borderBottom = '2px solid #081c15';
     parent5.style.borderBottom = 'none';
     parent6.style.borderBottom = 'none';
@@ -1750,11 +1741,10 @@ day2.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 
-  section5.addEventListener("click", function() {
-
+  section5.addEventListener('click', () => {
     parent4.style.borderBottom = 'none';
     parent5.style.borderBottom = '2px solid #081c15';
     parent6.style.borderBottom = 'none';
@@ -2073,11 +2063,10 @@ day2.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 
-  section6.addEventListener("click", function() {
-
+  section6.addEventListener('click', () => {
     parent4.style.borderBottom = 'none';
     parent5.style.borderBottom = 'none';
     parent6.style.borderBottom = '2px solid #081c15';
@@ -2563,10 +2552,10 @@ day2.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 });
-day3.addEventListener("click", function(){
+day3.addEventListener('click', () => {
   section.innerHTML = `<li>
   <button id="day3-section-7">SESSION I</button>
   </li>
@@ -2575,19 +2564,17 @@ day3.addEventListener("click", function(){
   </li>
   <li>
     <button id="day3-section-9">SESSION III</button>
-  </li>`
+  </li>`;
 
-  const section7 = document.getElementById("day3-section-7");
-  const section8 = document.getElementById("day3-section-8");
-  const section9 = document.getElementById("day3-section-9");
+  const section7 = document.getElementById('day3-section-7');
+  const section8 = document.getElementById('day3-section-8');
+  const section9 = document.getElementById('day3-section-9');
 
-  let parent4 = section7.parentNode
-  let parent5 = section8.parentNode
-  let parent6 = section9.parentNode
+  const parent4 = section7.parentNode;
+  const parent5 = section8.parentNode;
+  const parent6 = section9.parentNode;
 
-
-  section7.addEventListener("click", function() {
-
+  section7.addEventListener('click', () => {
     parent4.style.borderBottom = '2px solid #081c15';
     parent5.style.borderBottom = 'none';
     parent6.style.borderBottom = 'none';
@@ -2887,11 +2874,10 @@ day3.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 
-  section8.addEventListener("click", function() {
-
+  section8.addEventListener('click', () => {
     parent4.style.borderBottom = 'none';
     parent5.style.borderBottom = '2px solid #081c15';
     parent6.style.borderBottom = 'none';
@@ -3029,11 +3015,10 @@ day3.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 
-  section9.addEventListener("click", function() {
-
+  section9.addEventListener('click', () => {
     parent4.style.borderBottom = 'none';
     parent5.style.borderBottom = 'none';
     parent6.style.borderBottom = '2px solid #081c15';
@@ -3207,57 +3192,57 @@ day3.addEventListener("click", function(){
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
   });
 });
 
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', function() {
-      if (window.scrollY > 100) {
-        // elem.classList.add("first","second","third");
-        // let navs = document.getElementById('naver')
-        // navs.classList.add('navbar-dark', 'bg-dark');
-        // navs.classList.remove('navbar-light', 'bg-light');
-        // navs.innerHTML = `<div class="container">
-        // <a class="navbar-brand" href="#">
-        //   <img src="./images/digital_Nigeria_logo.png" alt="" width="93" height="70">
-        // </a>
-        // <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        //   <span class="navbar-toggler-icon"></span>
-        // </button>
-        // <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
-        //   <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
-        //     <li class="nav-item">
-        //       <a class="nav-link active" aria-current="page" href="/">HOME</a>
-        //     </li>
-        //     <li class="nav-item">
-        //       <a class="nav-link" href="#register">ABOUT</a>
-        //     </li>
-        //     <li class="nav-item">
-        //       <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
-        //     </li>
-        //     <li class="nav-item">
-        //       <a class="nav-link" href="#agenda">SCHEDULE</a>
-        //     </li>
-        //     <li class="nav-item">
-        //       <a class="nav-link" href="#patners">SPONSORS</a>
-        //     </li>
-        //   </ul>
-          
-        //   <form class="d-flex w-25 position-relative" id="header-form">
-        //     <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
-        //     <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
-        //   </form>
-  
-        //   <a href="https://www.digitalnigeria.gov.ng/register/register.html" class="btn" id="reg" target="_blank">REGISTER NOW</a>`;
+    if (window.scrollY > 100) {
+      // elem.classList.add("first","second","third");
+      // let navs = document.getElementById('naver')
+      // navs.classList.add('navbar-dark', 'bg-dark');
+      // navs.classList.remove('navbar-light', 'bg-light');
+      // navs.innerHTML = `<div class="container">
+      // <a class="navbar-brand" href="#">
+      //   <img src="./images/digital_Nigeria_logo.png" alt="" width="93" height="70">
+      // </a>
+      // <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      //   <span class="navbar-toggler-icon"></span>
+      // </button>
+      // <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+      //   <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
+      //     <li class="nav-item">
+      //       <a class="nav-link active" aria-current="page" href="/">HOME</a>
+      //     </li>
+      //     <li class="nav-item">
+      //       <a class="nav-link" href="#register">ABOUT</a>
+      //     </li>
+      //     <li class="nav-item">
+      //       <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
+      //     </li>
+      //     <li class="nav-item">
+      //       <a class="nav-link" href="#agenda">SCHEDULE</a>
+      //     </li>
+      //     <li class="nav-item">
+      //       <a class="nav-link" href="#patners">SPONSORS</a>
+      //     </li>
+      //   </ul>
 
-          this.document.getElementById("up-button").innerHTML = `<a href="#carouselInterval" class="">
+      //   <form class="d-flex w-25 position-relative" id="header-form">
+      //     <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
+      //     <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
+      //   </form>
+
+      //   <a href="https://www.digitalnigeria.gov.ng/register/register.html" class="btn" id="reg" target="_blank">REGISTER NOW</a>`;
+
+      this.document.getElementById('up-button').innerHTML = `<a href="#carouselInterval" class="">
           <img src="./images/arrow-up-circle.svg" alt="" width="50" height="50" class="img-fluid">
         </a>`;
-        // add padding top to show content behind navbar
-        //navbar_height = document.querySelector('.navbar').offsetHeight;
-        //document.body.style.paddingTop = navbar_height + 'px';
-      } else {
+      // add padding top to show content behind navbar
+      // navbar_height = document.querySelector('.navbar').offsetHeight;
+      // document.body.style.paddingTop = navbar_height + 'px';
+    } else {
       //   let navs = document.getElementById('naver')
       //   navs.classList.remove('navbar-dark', 'bg-dark');
       //   navs.classList.add('navbar-light', 'bg-light');
@@ -3290,62 +3275,57 @@ document.addEventListener("DOMContentLoaded", function(){
       //       <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
       //       <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
       //     </form>
-          
+
       //   </div>
       // </div>`;
 
-      this.document.getElementById("up-button").innerHTML = ``;
-         // remove padding top from body
-        // carouselInterval
-      } 
+      this.document.getElementById('up-button').innerHTML = '';
+      // remove padding top from body
+      // carouselInterval
+    }
   });
-}); 
+});
 
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarSupportedContent')
-const bsCollapse = new bootstrap.Collapse(menuToggle)
+const navLinks = document.querySelectorAll('.nav-item');
+const menuToggle = document.getElementById('navbarSupportedContent');
+const bsCollapse = new bootstrap.Collapse(menuToggle);
 navLinks.forEach((l) => {
-    l.addEventListener('click', () => { bsCollapse.toggle() })
-})
+  l.addEventListener('click', () => { bsCollapse.toggle(); });
+});
 
 // var vidElement0 = document.getElementById('video0');
 // var vidElement1 = document.getElementById('video1');
 // var vidElement2 = document.getElementById('video2');
 
-
 //     var vidSource0 = "./video/video(1).mp4";
 //     var vidSource1 = "./video/video(2).mp4";
 //     var vidSource2 = "./video/video(3).mp4";
-    
+
 //     vidElement0.src = vidSource0;
 //     vidElement1.src = vidSource1;
 //     vidElement2.src = vidSource2;
-    
-//     var vidRandom = document.getElementById("video0");
-    
-//     vidRandom.style.display = "block";
-   
 
-   
+//     var vidRandom = document.getElementById("video0");
+
+//     vidRandom.style.display = "block";
+
 //     vidElement0.addEventListener('ended', function(e) {
 //     vidElement1.play();
-   
+
 //     vidElement0.style.display = "none";
 //      vidElement1.style.display = "block";
 // });
 
-  //   vidElement1.addEventListener('ended', function(e) {
-  //   vidElement2.play();
-    
-  //   vidElement1.style.display = "none";
-  //   vidElement2.style.display = "block";
-  // });
-  
-  //   vidElement2.addEventListener('ended', function(e) {
-  //   vidElement0.play();
-    
-  //   vidElement2.style.display = "none";
-  //   vidElement0.style.display = "block";
-  // });
-  
-    
+//   vidElement1.addEventListener('ended', function(e) {
+//   vidElement2.play();
+
+//   vidElement1.style.display = "none";
+//   vidElement2.style.display = "block";
+// });
+
+//   vidElement2.addEventListener('ended', function(e) {
+//   vidElement0.play();
+
+//   vidElement2.style.display = "none";
+//   vidElement0.style.display = "block";
+// });

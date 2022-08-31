@@ -154,9 +154,11 @@ section1.addEventListener('click', () => {
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
-        <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>
-        <p>Funke Opeke MD Main one</p>
-        <p>Juliet Ehiueman Chiazor Country Manager, Google Nigeria</p>
+        <div>
+          <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>
+          <p>Funke Opeke MD Main one</p>
+          <p>Juliet Ehiueman Chiazor Country Manager, Google Nigeria</p>
+        </div>
       </div>
     </div>
   </div>
@@ -940,9 +942,11 @@ day1.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-          <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>
-          <p>Funke Opeke MD Main one</p>
-          <p>Juliet Ehiueman Chiazor Country Manager, Google Nigeria</p>
+          <div>
+            <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>
+            <p>Funke Opeke MD Main one</p>
+            <p>Juliet Ehiueman Chiazor Country Manager, Google Nigeria</p>
+          </div>
         </div>
       </div>
     </div>

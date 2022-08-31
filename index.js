@@ -917,7 +917,7 @@ day1.addEventListener('click', () => {
           <span class="sides"></span>
           <div>
             <p>Prof. Isa Ali Ibrahim (Pantami) <span>FNCS, FBCS, FIIM, MCPN</span> </p>
-
+  
             <p>Hon. Minister, Federal Ministry of Communications and Digital Economy.</p>
           </div>
           
@@ -985,7 +985,7 @@ day1.addEventListener('click', () => {
             <p>By Mr Alor Nwankwo</p>
             <p>Permanent Secretary Federal Ministry of Communication and Digital Economy</p>
           </div>
-
+  
         </div>
       </div>
     </div>
@@ -1075,16 +1075,16 @@ day1.addEventListener('click', () => {
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Sub-theme</p>
+            <i class="bi bi-clock px-2"></i>
+            <p>01:15PM - 02:00PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>SUB-THEME</h4>
-          <p>EXPERT REVIEW OF DRAFT NATIONAL DIGITAL ECONOMY POLICY AND STRATEGY</p>
+          <h4>PANEL DISCUSSION I</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
+          
         </div>
       </div>
     </div>
@@ -1099,29 +1099,15 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PRESENTATION OF DRAFT NATIONAL DIGITAL ECONOMY POLICY & STRATEGY</h4>
+          <h4>ACHIEVING INCLUSIVE GROWTH IN THE FACE OF DIGITAL TRANSFORMATION AND THE FUTURE OF WORK.</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Presenter:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>MR M. ISTIFANUS</h4>
-          <P>Permanent Secretary, Federal Ministry of Communications and Digital Economy Abuja.</P>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
+          <div>
+            <h4>Mr. Ino Alogwu (Lead Presenter)</h4>
+            <p>Director Digital Transformation, ARM</p>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -1136,8 +1122,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DR EVANS WUHEREM</h4>
-          <p>Digital Africa, Abuja.</p>
+          <h4>MR. MUSA ALI BABA</h4>
+          <p>CEO, Tearsea Pay</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1155,8 +1141,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>SHUBHAM CHAUDHURI</h4>
-          <p>Country Director World Bank Abuja</p>
+          <h4>MR. YUSUF BASHIR</h4>
+          <p>CEO Satoshi Capital Advisors & KICT Lab</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1174,8 +1160,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PROF IBRAHIM DAMBATA</h4>
-          <p>Executive Vice Chairman Nigerian Communications Commission Abuja.</p>
+          <h4>DR RISLAN KANYA</h4>
+          <p>Deputy Vice Chancellor Innovation and ICT Baze University</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1193,7 +1179,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>MASTER CARD NIGERIA</h4>
+          <h4>DR AMINA SAMBO MAGAJI</h4>
+          <p>Deputy Director, Digital Economy Department, NITDA</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1211,8 +1198,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>ASHWANI MASHRA</h4>
-          <p>Director, Marketing and Solutions Huawei Nigeria.</p>
+          <h4>MRS. ABIODUN OSOBA</h4>
+          <p>CEO, Agile Advisor</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1220,60 +1207,21 @@ day1.addEventListener('click', () => {
       </div>
     </div>
   </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Panelist 5:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>JOHN AYOH</h4>
-          <p>Former IT Director Central Bank of Nigeria</p>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Panelist 6:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>MR LEA STAN EKE</h4>
-          <p>Chairman, ZINOX Technologies Limited Lagos.
-          </p>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <div id="patners-title"></div>
   <article>
     <div class="container-fluid">
       <div class="row border-bottom-0">
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>01:30PM - 02:30PM</p>
+            <p>02:00PM - 02:10PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>LUNCH</h4>
+          <h4>QUESTIONS AND ANSWERS</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
+          
         </div>
       </div>
     </div>
@@ -1290,15 +1238,16 @@ day1.addEventListener('click', () => {
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Sub-theme</p>
+            <i class="bi bi-clock px-2"></i>
+            <p>02:10PM - 02:55PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>BUILDING THE INFRASTRUCTURE FOR THE FOURTH INDUSTRIAL REVOLUTION</h4>
+          <h4>PANEL DISCUSSION II</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
+          
         </div>
       </div>
     </div>
@@ -1313,29 +1262,15 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>CHALLENGES AND OPPORTUNITIES FOR INFRASTRUCTURE AND HUMAN CAPITAL DEVELOPMENT</h4>
+          <h4>DRIVING GROWTH AND UNLOCKING INNOVATIONS THROUGH REGULATIONS FOR A SUSTAINABLE DIGITAL ECONOMY.</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Presenter:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>ZHANG LULU</h4>
-          <P>Managing Director Nigeria/ Vice President, Huawei Africa</P>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
+          <div>
+            <h4>Dr. Segun Aina OFR</h4>
+            <p>FinTech Association of Nigeria (Lead Presenter)</p>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -1350,8 +1285,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>MR YUSSUF KAZAURE</h4>
-          <p>Galaxy Backbone Limited Abuja.</p>
+          <h4>MRS. ADAEZE SOKAN</h4>
+          <p>UK Nigeria Tech Hub</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1369,8 +1304,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PROF SAHALU JUNAIDU</h4>
-          <p>Department of Computer Science Ahmadu Bello University Zaria</p>
+          <h4>MRS. TITI AKINSAMI</h4>
+          <p>Public Policy Lead, Google</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1388,8 +1323,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>BARR. BISI ADEGBUYI</h4>
-          <p>Managing Director/CE NIPOST</p>
+          <h4>REP NCC</h4>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1407,8 +1342,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PROF AMINU AHMAD</h4>
-          <p>Department of Management and Information Technology Abubakar Tafawa Balewa University Bauchi</p>
+          <h4>TAOPHEEK BABAYEJU </h4>
+          <p>MD ICENTRAL</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1426,9 +1361,8 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>
-            UCHENNA ONWUAMAEGBU-UGWU</h4>
-          <p>Edufun Technik STEM Hub Awka.</p>
+          <h4>YELE OKEREMI</h4>
+          <p>MD/CEO PFS</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1436,42 +1370,22 @@ day1.addEventListener('click', () => {
       </div>
     </div>
   </article>
+  
   <article>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Panelist 5:</p>
+            <i class="bi bi-clock px-2"></i>
+            <p>02:55PM - 03:05PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>
-            DR ABIMBOLA H. ALALE</h4>
-          <p>Managing Director/CE NigComSat Abuja.</p>
+          <h4>QUESTIONS AND ANSWERS</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Panelist 6:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>MR YAKUBU SANI</h4>
-          <p>Government Relations & Business Development Manager Main One Cable Company Lagos.
-          </p>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
+          
         </div>
       </div>
     </div>
@@ -1482,11 +1396,53 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>04:00PM - 04:30PM</p>
+            <p>03:05PM - 03:50PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>START-UP PITCHES</h4>
+          <h4>PANEL DISCUSSION III</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clipboard2-check"></i>
+            <p>Topic:</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>DATA PROTECTION AND NATIONAL SECURITY: HERNESSING DATA TO SOLVE INSECURITY PROBLEMS IN NIGERIA..</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div>
+            <h4>BASIL UDONTAI (Lead Presenter)</h4>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clipboard2-check"></i>
+            <p>Moderator:</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>GENERAL DR. AKINSODE</h4>
+          <p>Rep from Office of the National Security Advisor(NDPB)</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1494,21 +1450,117 @@ day1.addEventListener('click', () => {
       </div>
     </div>
   </article>
-  <div id="patners-title"></div>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clipboard2-check"></i>
+            <p>Panelist 1:</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>DR. VINCENT O. OLATUNJI</h4>
+          <p>NC/CEO National Data Protection Bureau (NDPB)</p>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clipboard2-check"></i>
+            <p>Panelist 2:</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>REP NIMC</h4>
+          
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clipboard2-check"></i>
+            <p>Panelist 3:</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>SOLOMON ODOLE </h4>
+          <p>Project Coordinator, Nigeria Digital Identification for Developmen (ID4D) Project</p>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clipboard2-check"></i>
+            <p>Panelist 4:</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>REP. FROM NIGERIAN IMMIGRATION SERVICE (NIS)</h4>
+          <p>MD/CEO PFS</p>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+        </div>
+      </div>
+    </div>
+  </article>
+  
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>03:50PM - 04:00PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>QUESTIONS AND ANSWERS</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  </article>
   <article>
     <div class="container-fluid">
       <div class="row border-bottom-0">
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>04:30PM - 05:00PM</p>
+            <p>04:00PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>WRAP UP OF DAY ONE</h4>
+          <h4>LUNCH</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
+          
         </div>
       </div>
     </div>

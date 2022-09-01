@@ -2571,13 +2571,13 @@ day2.addEventListener('click', () => {
 });
 day3.addEventListener('click', () => {
   section.innerHTML = `<li>
-  <button id="day3-section-7">SESSION 1</button>
+  <button id="day3-section-7">SESSION ONE</button>
   </li>
   <li>
-    <button id="day3-section-8">SESSION 2</button>
+    <button id="day3-section-8">SESSION TWO</button>
   </li>
   <li>
-    <button id="day3-section-9">SESSION 3</button>
+    <button id="day3-section-9">SESSION THREE</button>
   </li>`;
 
   const section7 = document.getElementById('day3-section-7');

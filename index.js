@@ -319,10 +319,6 @@ section2.addEventListener('click', () => {
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
-        <div>
-          <h4>Mr. Ino Alogwu (Lead Presenter)</h4>
-          <p>Director Digital Transformation, ARM</p>
-        </div>
         
       </div>
     </div>
@@ -338,8 +334,6 @@ section2.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>MR. MUSA ALI BABA</h4>
-        <p>CEO, Tearsea Pay</p>
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -357,8 +351,7 @@ section2.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>MR. YUSUF BASHIR</h4>
-        <p>CEO Satoshi Capital Advisors & KICT Lab</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -376,8 +369,7 @@ section2.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>DR RISLAN KANYA</h4>
-        <p>Deputy Vice Chancellor Innovation and ICT Baze University</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -395,8 +387,7 @@ section2.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>DR AMINA SAMBO MAGAJI</h4>
-        <p>Deputy Director, Digital Economy Department, NITDA</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -414,8 +405,7 @@ section2.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>MRS. ABIODUN OSOBA</h4>
-        <p>CEO, Agile Advisor</p>
+
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -483,8 +473,7 @@ section3.addEventListener('click', () => {
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
         <div>
-          <h4>Dr. Segun Aina OFR</h4>
-          <p>FinTech Association of Nigeria (Lead Presenter)</p>
+          
         </div>
         
       </div>
@@ -501,8 +490,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>MRS. ADAEZE SOKAN</h4>
-        <p>UK Nigeria Tech Hub</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -520,8 +508,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>MRS. TITI AKINSAMI</h4>
-        <p>Public Policy Lead, Google</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -539,7 +526,6 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>REP NCC</h4>
         
       </div>
       <div class="col-md-4 speaker-section">
@@ -558,8 +544,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>TAOPHEEK BABAYEJU </h4>
-        <p>MD ICENTRAL</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -577,8 +562,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>YELE OKEREMI</h4>
-        <p>MD/CEO PFS</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -640,7 +624,7 @@ section3.addEventListener('click', () => {
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
         <div>
-          <h4>BASIL UDONTAI (Lead Presenter)</h4>
+          
         </div>
         
       </div>
@@ -657,8 +641,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>GENERAL DR. AKINSODE</h4>
-        <p>Rep from Office of the National Security Advisor(NDPB)</p>
+       
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -676,8 +659,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>DR. VINCENT O. OLATUNJI</h4>
-        <p>NC/CEO National Data Protection Bureau (NDPB)</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -695,8 +677,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>REP NIMC</h4>
-        
+
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -714,8 +695,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>SOLOMON ODOLE </h4>
-        <p>Project Coordinator, Nigeria Digital Identification for Developmen (ID4D) Project</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -733,8 +713,7 @@ section3.addEventListener('click', () => {
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>REP. FROM NIGERIAN IMMIGRATION SERVICE (NIS)</h4>
-        <p>MD/CEO PFS</p>
+        
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -1107,10 +1086,6 @@ day1.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-          <div>
-            <h4>Mr. Ino Alogwu (Lead Presenter)</h4>
-            <p>Director Digital Transformation, ARM</p>
-          </div>
           
         </div>
       </div>
@@ -1126,8 +1101,6 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>MR. MUSA ALI BABA</h4>
-          <p>CEO, Tearsea Pay</p>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1145,8 +1118,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>MR. YUSUF BASHIR</h4>
-          <p>CEO Satoshi Capital Advisors & KICT Lab</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1164,8 +1136,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DR RISLAN KANYA</h4>
-          <p>Deputy Vice Chancellor Innovation and ICT Baze University</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1183,8 +1154,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DR AMINA SAMBO MAGAJI</h4>
-          <p>Deputy Director, Digital Economy Department, NITDA</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1202,8 +1172,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>MRS. ABIODUN OSOBA</h4>
-          <p>CEO, Agile Advisor</p>
+  
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1271,8 +1240,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
           <div>
-            <h4>Dr. Segun Aina OFR</h4>
-            <p>FinTech Association of Nigeria (Lead Presenter)</p>
+            
           </div>
           
         </div>
@@ -1289,8 +1257,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>MRS. ADAEZE SOKAN</h4>
-          <p>UK Nigeria Tech Hub</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1308,8 +1275,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>MRS. TITI AKINSAMI</h4>
-          <p>Public Policy Lead, Google</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1327,7 +1293,6 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>REP NCC</h4>
           
         </div>
         <div class="col-md-4 speaker-section">
@@ -1346,8 +1311,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>TAOPHEEK BABAYEJU </h4>
-          <p>MD ICENTRAL</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1365,8 +1329,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>YELE OKEREMI</h4>
-          <p>MD/CEO PFS</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1428,7 +1391,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
           <div>
-            <h4>BASIL UDONTAI (Lead Presenter)</h4>
+            
           </div>
           
         </div>
@@ -1445,8 +1408,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>GENERAL DR. AKINSODE</h4>
-          <p>Rep from Office of the National Security Advisor(NDPB)</p>
+         
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1464,8 +1426,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DR. VINCENT O. OLATUNJI</h4>
-          <p>NC/CEO National Data Protection Bureau (NDPB)</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1483,8 +1444,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>REP NIMC</h4>
-          
+  
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1502,8 +1462,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>SOLOMON ODOLE </h4>
-          <p>Project Coordinator, Nigeria Digital Identification for Developmen (ID4D) Project</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1521,8 +1480,7 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>REP. FROM NIGERIAN IMMIGRATION SERVICE (NIS)</h4>
-          <p>MD/CEO PFS</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -2739,8 +2697,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>NNEKA UKAY</h4>
-          <p>CEO, ISN Hubs</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -2758,8 +2715,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>BADE ALUKO</h4>
-          <p>Partner, White Hibiscus</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -2777,8 +2733,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DAMILOLA TEIDI</h4>
-          <p>Director, Startup Support CC-Hub</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -2796,8 +2751,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>FAIZ BASHIR</h4>
-          <p>CEO, FlexiSAF</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -2815,8 +2769,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>MARYAM GWADABE</h4>
-          <p>Founder, Blue Sapphire Hub</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -2987,8 +2940,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>KASIM A. SODANGI</h4>
-          <p>Head Compliance, Smile Identity</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -3006,8 +2958,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>OSWALD GUOBADIA</h4>
-          <p>SA to the President, Digital Transformation</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -3025,8 +2976,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>CHARLES EMEMBOLU</h4>
-          <p>Roar Nigeria Hun</p>
+          
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -3044,8 +2994,7 @@ day3.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DARE ODUMADE</h4>
-          <p>Founder, Chekkit</p>
+        
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>

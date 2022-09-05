@@ -164,8 +164,8 @@ body h2 {
 
 #patners .carousel-control-prev,
 #patners .carousel-control-next,
-#carouselInterval .carousel-control-next-icon,
-#carouselInterval .carousel-control-prev-icon,
+#carouselInterval .carousel-control-next,
+#carouselInterval .carousel-control-prev,
 #carouselFade .carousel-control-prev,
 #carouselFade .carousel-control-next {
   background-color: #333629;

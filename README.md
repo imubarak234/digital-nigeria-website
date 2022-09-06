@@ -12,7 +12,8 @@ Front-end awareness and advertising website for the Digital Nigeria Hybrid confe
 
 
 ## Live Demo
-[Live](https://imubarak234.github.io/digital-nigeria-website/)
+[Live!](https://www.digitalnigeria.gov.ng/)
+[Demo!](https://imubarak234.github.io/digital-nigeria-website/)
 
 ## Built with
 - HTML

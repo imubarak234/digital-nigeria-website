@@ -20,6 +20,7 @@ Front-end awareness and advertising website for the Digital Nigeria Hybrid confe
 - CSS 
 - Javascript
 - Bootstrap
+- VSCode
 
 ## Version Control System
 

@@ -115,6 +115,10 @@ body h2 {
   border: none;
 }
 
+#speakers .row .inner-card h4 {
+  font-size: 1.2em;
+}
+
 #agenda ul li button {
   color: black;
   font-size: 1.5em;

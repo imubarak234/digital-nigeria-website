@@ -1969,25 +1969,29 @@ document.addEventListener('DOMContentLoaded', () => {
     if (window.scrollY > 100) {
       //elem.classList.add("first","second","third");
       let navs = document.getElementById('naver')
-      navs.classList.add('navbar-dark', 'bg-dark', 'fixed-top');
-      navs.classList.remove('navbar-light', 'bg-light');
-      navs.innerHTML = `<div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="./images/digital_Nigeria_logo.png" alt="" width="93" height="70">
+      navs.classList.add('navbar-dark', 'bg-dark', 'dark-background');
+      navs.classList.remove('navbar-light', 'bg-light', 'white-background');
+      navs.innerHTML = `<div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="./images/digital_Nigeria_logo.png" alt="main logo header" width="113" height="90">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="hambugers" type="button" id="nav-hambuger">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="#081c15" class="bi bi-card-text" viewBox="0 0 16 16">
+          <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+          <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+        </svg>
       </button>
-      <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
+      <div class="inner-navs w-auto" >
+        <ul class="nav w-auto mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#register">ABOUT</a>
+            <a class="nav-link" href="/#dignitaries" title="Dignitaries">DIGNITARIES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
+            <a class="nav-link" href="/#register">ABOUT</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#agenda">SCHEDULE</a>
@@ -1996,13 +2000,13 @@ document.addEventListener('DOMContentLoaded', () => {
             <a class="nav-link" href="#patners">SPONSORS</a>
           </li>
         </ul>
-
-        <form class="d-flex w-25 position-relative" id="header-form">
+        <form class="position-relative w-auto" id="header-form">
           <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
           <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
         </form>
-
-        <a href="https://www.digitalnigeria.gov.ng/register" class="btn" id="reg" target="_blank">REGISTER</a>`;
+        <a href="https://www.digitalnigeria.gov.ng/register" class="btn" id="reg" target="_blank">REGISTER</a>
+      </div>
+    </div>`;
 
       this.document.getElementById('up-button').innerHTML = `<a href="#carouselInterval" class="">
       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#2d6a4f" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
@@ -2010,48 +2014,110 @@ document.addEventListener('DOMContentLoaded', () => {
       </svg>
         </a>`;
       // add padding top to show content behind navbar
+
+      const mobileButton = document.getElementById('nav-hambuger');
+
+      mobileButton.addEventListener('click', () => {
+
+        const mobile = document.getElementById('mobile');
+        mobile.classList.add('blocks');
+        mobile.classList.remove('displays');
+
+        let mobileLinks = document.querySelector("#mobile .container .mobile-menu").querySelectorAll('.nav-link');
+        console.log(mobileLinks)
+        Array.prototype.slice.call(mobileLinks)
+        .forEach((e) => {
+          console.log(e);
+          e.addEventListener('click', () => {
+            mobile.classList.add('displays');
+            mobile.classList.remove('blocks');
+            console.log("working");
+          });
+        });
+
+        const closeButton = document.getElementById('close-button');
+
+        closeButton.addEventListener('click', () => {
+          mobile.classList.add('displays');
+          mobile.classList.remove('blocks');
+        
+        });
+      });
       // navbar_height = document.querySelector('.navbar').offsetHeight;
       // document.body.style.paddingTop = navbar_height + 'px';
     } else {
         let navs = document.getElementById('naver')
-        navs.classList.remove('navbar-dark', 'bg-dark');
-        navs.classList.add('navbar-light', 'bg-light');
-        navs.innerHTML = `<div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./images/digital_Nigeria_logo3.png" alt="" width="93" height="70">
+        navs.classList.remove('navbar-dark', 'bg-dark', 'dark-background');
+        navs.classList.add('navbar-light', 'bg-light', 'white-background');
+        navs.innerHTML = `<div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="./images/digital_Nigeria_logo3.png" alt="main logo header" width="113" height="90">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="hambuger" type="button" id="nav-hambuger">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="#081c15" class="bi bi-card-text" viewBox="0 0 16 16">
+            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+            <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+          </svg>
         </button>
-        <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
+        <div class="inner-nav w-auto" >
+          <ul class="nav w-auto mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#dignitaries">DIGNITARIES</a>
+              <a class="nav-link" href="/#dignitaries" title="Dignitaries">DIGNITARIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#register">ABOUT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#agenda">SCHEDULE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#register">ABOUT</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#patners">SPONSORS</a>
             </li>
           </ul>
-          <form class="d-flex w-25 position-relative" id="header-form">
+          <form class="position-relative w-auto" id="header-form">
             <input class="form-control me-2 border-top-0 border-end-0 border-start-0" type="search" placeholder="Search" aria-label="Search">
             <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
           </form>
-
+          
         </div>
       </div>`;
 
       this.document.getElementById('up-button').innerHTML = '';
       // remove padding top from body
       // carouselInterval
+
+      const mobileButton = document.getElementById('nav-hambuger');
+
+      mobileButton.addEventListener('click', () => {
+
+        const mobile = document.getElementById('mobile');
+        mobile.classList.add('blocks');
+        mobile.classList.remove('displays');
+
+        let mobileLinks = document.querySelector("#mobile .container .mobile-menu").querySelectorAll('.nav-link');
+        console.log(mobileLinks)
+        Array.prototype.slice.call(mobileLinks)
+        .forEach((e) => {
+          console.log(e);
+          e.addEventListener('click', () => {
+            mobile.classList.add('displays');
+            mobile.classList.remove('blocks');
+            console.log("working");
+          });
+        });
+
+        const closeButton = document.getElementById('close-button');
+
+        closeButton.addEventListener('click', () => {
+          mobile.classList.add('displays');
+          mobile.classList.remove('blocks');
+        
+        });
+      });
     }
   });
 });

@@ -18,6 +18,16 @@
   display: block;
 }
 
+.white-background {
+  background-image: url(./images/Digital_Nigeria_2022.jpg);
+  background-size: cover;
+}
+
+.dark-background {
+  background-image: url(./images/Digital_Nigeria_Banner11.jpg);
+  background-size: cover;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
   padding-top: 95px;
@@ -49,17 +59,18 @@ nav ul {
 }
 
 nav {
-  background-image: url(./images/Digital_Nigeria_2022.jpg);
-  background-size: cover;
+
 }
 
-#naver .hambuger {
+#naver .hambuger,
+#naver .hambugers {
   display: none;
   background-color: transparent;
   border: none;
 }
 
-#naver .inner-nav {
+#naver .inner-nav,
+#naver .inner-navs {
   display: flex;
   justify-content: space-between;
 }
@@ -68,6 +79,10 @@ nav {
   color: var(--dark_green);
   font-weight: bolder;
   padding-right: 2vw;
+}
+
+#naver .inner-navs ul li a {
+  color: var(--light_green);
 }
 
 #naver .inner-nav ul li a:hover {
@@ -84,7 +99,8 @@ nav {
   justify-content: space-around;
 }
 
-#naver .inner-nav form {
+#naver .inner-nav form,
+#naver .inner-navs form {
   display: flex;
 }
 
@@ -509,7 +525,8 @@ video {
     display: none;
   }
 
-  #naver .inner-nav form {
+  #naver .inner-nav form,
+  #naver .inner-navs form {
     display: none;
   }
 }
@@ -551,12 +568,18 @@ video {
     align-items: center;
   }
 
-  #naver .inner-nav {
+  #naver .inner-nav,
+  #naver .inner-navs {
     display: none;
   }
 
-  #naver .hambuger {
+  #naver .hambuger,
+  #naver .hambugers {
     display: block;
+  }
+
+  #naver .hambugers svg {
+    fill: var(--light_green);
   }
 }
 

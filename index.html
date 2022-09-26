@@ -21,10 +21,14 @@
   <nav class="navbar navbar-light fixed-top bg-light" id="naver">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="./images/digital_Nigeria_logo3.png" alt="" width="113" height="90">
+        <img src="./images/digital_Nigeria_logo3.png" alt="main logo header" width="113" height="90">
       </a>
-      <button class="navbar-toggler hambuger" type="button" >
-        <span class="navbar-toggler-icon"></span>
+      <button class="hambuger" type="button" id="nav-hambuger">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="#081c15" class="bi bi-card-text" viewBox="0 0 16 16">
+          <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+          <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+        </svg>
       </button>
       <div class="inner-nav w-auto" >
         <ul class="nav w-auto mb-2 mb-lg-0 d-flex justify-content-evenly fw-bolder">
@@ -32,10 +36,10 @@
             <a class="nav-link active" aria-current="page" href="/">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#dignitaries" title="Dignitaries">DIGNITARIES</a>
+            <a class="nav-link" href="/#dignitaries" title="Dignitaries">DIGNITARIES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#register">ABOUT</a>
+            <a class="nav-link" href="/#register">ABOUT</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#agenda">SCHEDULE</a>
@@ -55,45 +59,45 @@
 
   <!-- End header section -->
 
-  <!-- Start Slider section -->
-  <!-- <div id="carouselFade" class="carousel slide carousel-fade mb-4" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./images/WhatsApp.jpeg" class="d-block w-100 img-fluid" alt="slide image">
+  <section id="mobile" class="p-3 displays">
+    <div class="container">
+      <div class="heads d-flex justify-content-between">
+        <a href="/">
+          <img src="./images/digital_Nigeria_logo3.png" alt="main logo header" width="113" height="90">
+        </a>
+
+        <button type="button" id="close-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="#081c15" class="bi bi-x-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </button>
       </div>
-      <div class="carousel-item">
-        <img src="./images/WhatsApp(1).jpeg" class="d-block w-100 img-fluid" alt="slide image">
-      </div>
+
+      <ul class="nav flex-column align-items-center mobile-menu">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#dignitaries" title="Dignitaries">DIGNITARIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#register">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#agenda">SCHEDULE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#patners">SPONSORS</a>
+        </li>
+        <li class="nav-item reg-button">
+          <a href="/" class="btn py-2">REGISTER</a>
+        </li>
+      </ul>
+
+      
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> -->
-
-  <!-- End Slider section -->
-
-  <!-- <div id="tops"></div>
-  <video src="" id="video0"  preload autoplay muted playsinline></video>
-  <video src="" id="video1"  preload autoplay muted playsinline></video>
-  <video src="" id="video2"  preload autoplay muted playsinline></video> -->
-
-  <!-- <div class="position-relative">
-    <video controls autoplay loop muted>
-      <source src="./video/video(1).mp4" type="video/mp4">
-    </video>
-    <div class="position-absolute">
-      <h2>DIGITAL NIGERIA CONFERENCE</h2>
-      <h5>Theme: Digital Transformation A Path to Sustainable Digital Economy.</h5>
-    </div>
-    
-  </div> -->
-
-
+  </section>
   <div id="carouselInterval" class="carousel slide text-center" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div  class="carousel-item active d-flex" data-bs-interval="10000">
@@ -247,46 +251,7 @@
   
   <!-- End dignitaries section -->
 
-  <!-- Start Call for Paper section -->
-  <!-- <section class="text-start p-md-5 my-5" id="call-to-paper">
-    <div class="container-md lh-lg">
-      <div>
-        <h2 class="h2 fw-bolder">MAIDEN EDITION OF DIGITAL NIGERIA CONFERENCE AND EXHIBITION 2021
-        CALL FOR ABSTRACTS</h2>
-        <div class="underline"></div>
-      </div>
-      
-      <div class="">
-        <p class="fs-5">After launching the National Digital Economy Policy and Strategy (NDEPS) at the 11th edition of 
-          the e-Nigeria conference and exhibition 2019 by President Muhammadu Buhari, GFCR, in 2020, the 
-          President declared 24th October as Digital Nigeria Day, and it was celebrated that year. The Digital 
-          Nigeria Day is a day designated to promote the development of the Digital Economy in Nigeria. To 
-          Commemorate the 2021 Digital Nigeria Day, National Information Technology Development Agency (NITDA) 
-          has rebranded its e-Nigeria conference and exhibition to Digital Nigeria Conference and Exhibition 
-          and is organizing a 5-day conference and exhibition. The Digital Nigeria Conference and Exhibition 
-          is a veritable platform for creating awareness, developing appropriate frameworks, and setting goals 
-          for best practices in Information and Communications Technology (ICT) for Nigeria. The aim of the 
-          conference is to brainstorm on contemporary IT issues of relevance across the globe to address Nigerian 
-          challenges for sustainable socio-economic development. The conference and exhibition have seen steady 
-          growth with participation from different stakeholders from both the public and the private sector organizations.
-          Accordingly, this maiden edition is designed to focus on bringing together the Government, Academia, Tech Ecosystem, 
-          Venture capitalists, Corporates, and Entrepreneurs to exhibit the Nigerian talents and chart new ways to achieve economic
-            prosperity through the utilization of Digital Technologies in Nigeria. The theme for Digital Nigeria 2021 is, therefore, 
-            “Digital Transformation: A Path to Sustainable Digital Economy,” while the sub-themes are as follows:</p>
-        <ol class="fs-5">
-          <li>Digital Transformation – Digital policies, human capital, infrastructure, and relevant initiatives as requisites to building digital Nigeria</li>
-          <li>Data Protection and National Security – NDPR: Evolution and evaluation of data security in Nigeria; Information and insights to harnessing data to solve insecurity problems</li>
-          <li>Digital Inclusion – Nigerian digital footprints for digital economic prosperity</li>
-          <li>Innovation and Entrepreneurship – Innovative exploration in creating digital enterprises; Nigerian start-up ecosystem</li>
-        </ol>
-        <p class="fs-5">The conference, scheduled to hold between 28th to 30th October 2021, is expected to be declared open by His Excellency, President Muhammadu Buhari
-          (GCFR), who will be the Special Guest at the occasion. Therefore, we are pleased to invite Participants who wish to present papers at the event to 
-          submit abstracts that would address the theme and aspect of the sub-themes. The abstracts should be maximum of 250 words and can be submitted to tyekini@nitda.gov.ng. 
-          The deadline for submission is 7th October 2021. Authors of accepted Abstracts will be notified. For further inquiry, kindly contact tyekinni@nitda.gov.ng or +2348035905311.
-        Thank you.</p>
-      </div>
-    </div>
-  </section> -->
+  
 
   <!-- End Call for Paper section -->
 

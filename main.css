@@ -10,6 +10,14 @@
   --dark_green: #081c15;
 }
 
+.displays {
+  display: none;
+}
+
+.blocks {
+  display: block;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
   padding-top: 95px;
@@ -47,6 +55,8 @@ nav {
 
 #naver .hambuger {
   display: none;
+  background-color: transparent;
+  border: none;
 }
 
 #naver .inner-nav {
@@ -76,6 +86,46 @@ nav {
 
 #naver .inner-nav form {
   display: flex;
+}
+
+#mobile {
+  background-image: url(./images/Digital_Nigeria_2022.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2100;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+}
+
+#mobile .container .heads button {
+  background-color: transparent;
+  border: none;
+}
+
+#mobile .container .mobile-menu {
+  margin: 40px 40px;
+}
+
+#mobile .container .mobile-menu li a {
+  font-size: 1.5em;
+  color: #081c15;
+  font-weight: 600;
+  margin-top: 2em;
+  border-bottom: 2px solid #2d6a4f;
+}
+
+#mobile .container .mobile-menu .reg-button a {
+  background-color: var(--mid_green);
+  border-bottom: none;
+  font-size: 2em;
+  padding: 1em 1.5em;
+  border-radius: 10px;
+  color: var(--light_green);
 }
 
 #objectives .card {

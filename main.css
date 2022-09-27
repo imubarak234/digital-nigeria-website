@@ -58,10 +58,6 @@ nav ul {
   margin-right: 10vw;
 }
 
-nav {
-
-}
-
 #naver .hambuger,
 #naver .hambugers {
   display: none;
@@ -85,7 +81,8 @@ nav {
   color: var(--light_green);
 }
 
-#naver .inner-nav ul li a:hover {
+#naver .inner-nav ul li a:hover,
+#naver .inner-navs ul li a:hover {
   color: var(--mid_green);
   border-bottom: 2px solid var(--mid_green);
 }
@@ -560,7 +557,7 @@ video {
   }
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 768px) {
   #under-the-video .inner-under {
     display: flex;
     flex-direction: column;

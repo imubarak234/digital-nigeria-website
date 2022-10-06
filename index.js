@@ -25,7 +25,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>08:30AM</p>
+          <p>08:30AM - 09:00AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -43,7 +43,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>09:00AM</p>
+          <p>09:00AM - 09:55AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -61,7 +61,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>09:55AM</p>
+          <p>09:55AM - 10:00AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -79,7 +79,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>10:00AM</p>
+          <p>10:00AM - 10:15AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -97,7 +97,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>10:15AM</p>
+          <p>10:15AM - 10:30AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -121,7 +121,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>10:30AM</p>
+          <p>10:30AM - 10:50AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -145,7 +145,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>10:50AM</p>
+          <p>10:50AM - 11:20AM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -168,7 +168,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>11:20AM</p>
+          <p>11:20AM - 12:00PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -188,7 +188,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>12:00PM</p>
+          <p>12:00PM - 12:10PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -211,7 +211,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>12:10PM</p>
+          <p>12:10PM - 12:25PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -229,7 +229,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>12:25PM</p>
+          <p>12:25PM - 12:30PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -247,7 +247,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>12:30PM</p>
+          <p>12:30PM - 12:35PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -523,7 +523,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>08:30AM</p>
+            <p>08:30AM - 09:00AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -541,7 +541,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>09:00AM</p>
+            <p>09:00AM - 09:55AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -559,7 +559,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>09:55AM</p>
+            <p>09:55AM - 10:00AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -577,7 +577,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>10:00AM</p>
+            <p>10:00AM - 10:15AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -595,7 +595,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>10:15AM</p>
+            <p>10:15AM - 10:30AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -619,7 +619,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>10:30AM</p>
+            <p>10:30AM - 10:50AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -643,7 +643,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>10:50AM</p>
+            <p>10:50AM - 11:20AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -666,7 +666,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>11:20AM</p>
+            <p>11:20AM - 12:00PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -686,7 +686,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>12:00PM</p>
+            <p>12:00PM - 12:10PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -709,7 +709,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>12:10PM</p>
+            <p>12:10PM - 12:25PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -727,7 +727,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>12:25PM</p>
+            <p>12:25PM - 12:30PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -745,7 +745,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>12:30PM</p>
+            <p>12:30PM - 12:35PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -1814,7 +1814,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:30PM</p>
+            <p>02:30PM - 02:40PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -1832,7 +1832,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:40PM</p>
+            <p>02:40PM - 02:50PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -1850,7 +1850,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:50PM</p>
+            <p>02:50PM - 03:00PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -1869,7 +1869,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:00PM</p>
+            <p>03:00PM - 03:05PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -1887,7 +1887,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:05PM</p>
+            <p>03:05PM - 03:15PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -1907,7 +1907,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:15PM</p>
+            <p>03:15PM - 03:45PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -1927,7 +1927,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:45AM</p>
+            <p>03:45AM - 03:50PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">

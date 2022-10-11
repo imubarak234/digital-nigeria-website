@@ -205,6 +205,10 @@ body #carouselFade img {
   width: 45%;
 }
 
+#dignitaries .row .col-md-3 img {
+  width: 75%;
+}
+
 #dignitaries img {
   width: 25%;
 }
@@ -511,7 +515,7 @@ video {
   }
 
   #dignitaries #president {
-    width: 70%;
+    width: 75%;
   }
 
   #register .inner-reg {
@@ -577,6 +581,10 @@ video {
 
   #naver .hambugers svg {
     fill: var(--light_green);
+  }
+
+  #dignitaries .row img {
+    width: 75%;
   }
 }
 

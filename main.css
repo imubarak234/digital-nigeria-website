@@ -153,7 +153,8 @@ nav ul {
 #dignitaries .underline,
 #speakers .underline,
 #agenda .underline,
-#patners .underline {
+#patners .underline,
+#start-ups .underline {
   width: 20%;
   border-top: 2px solid green;
   padding: 1em 0;
@@ -285,7 +286,9 @@ body h2 {
 #carouselInterval .carousel-control-next,
 #carouselInterval .carousel-control-prev,
 #carouselFade .carousel-control-prev,
-#carouselFade .carousel-control-next {
+#carouselFade .carousel-control-next,
+#start-ups .carousel-control-prev,
+#start-ups .carousel-control-next {
   background-color: #333629;
   width: 6vh;
   height: 6vh;
@@ -299,7 +302,9 @@ body h2 {
 #carouselInterval .carousel-control-next-icon,
 #carouselInterval .carousel-control-prev-icon,
 #carouselFade .carousel-control-prev-icon,
-#carouselFade .carousel-control-next-icon {
+#carouselFade .carousel-control-next-icon,
+#start-ups .carousel-control-next-icon,
+#start-ups .carousel-control-prev-icon {
   color: white;
 }
 

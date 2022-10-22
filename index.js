@@ -87,6 +87,7 @@ section1.addEventListener('click', () => {
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
+        
       </div>
     </div>
   </div>
@@ -110,7 +111,6 @@ section1.addEventListener('click', () => {
           <p>Kashifu Inuwa Adbullahi</p>
           <p>Director-General, National Information Technology Development Agency</p>
         </div>
-        
       </div>
     </div>
   </div>
@@ -155,9 +155,8 @@ section1.addEventListener('click', () => {
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
         <div>
-          <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>
-          
-        </div>
+          <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>                   
+        </div>                  
       </div>
     </div>
   </div>
@@ -168,7 +167,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>11:20AM - 12:00PM</p>
+          <p>11:20AM - 11:40PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -188,7 +187,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>12:00PM - 12:10PM</p>
+          <p>11:40PM - 11:45PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -196,11 +195,43 @@ section1.addEventListener('click', () => {
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
-        <div>
-          <p>By Mr Alor Nwankwo</p>
-          <p>Permanent Secretary Federal Ministry of Communication and Digital Economy</p>
-        </div>
-
+        <p>Dr Alo Nwankwo, permanent Secretary Federal Ministry of Communications and Digital Economy</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:45PM - 11:55PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>NATIONAL ANTHEM</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:55PM - 12:10PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>GROUP PHOTOGRAPH</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
       </div>
     </div>
   </div>
@@ -229,25 +260,7 @@ section1.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>12:25PM - 12:30PM</p>
-        </div> 
-      </div>
-      <div class="col-md-5 title-section">
-        <h4>GROUP PHOTOGRAPH</h4>
-      </div>
-      <div class="col-md-4 speaker-section">
-        <span class="sides"></span>
-      </div>
-    </div>
-  </div>
-</article>
-<article>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 time-section">
-        <div class="d-flex">
-          <i class="bi bi-clock px-2"></i>
-          <p>12:30PM - 12:35PM</p>
+          <p>12:25PM - 12:35PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -291,11 +304,11 @@ section2.addEventListener('click', () => {
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>01:15PM - 02:00PM</p>
+          <p>12:45PM - 01:05PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
-        <h4>PANEL DISCUSSION I</h4>
+        <h4>PLENARY I</h4>
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
@@ -318,6 +331,10 @@ section2.addEventListener('click', () => {
       </div>
       <div class="col-md-4 speaker-section">
         <span class="sides"></span>
+        <div class="d-flex flex-column">
+          <p>Guest Speech: Saadia Zahiri - MD (World Economic Forum)</p>
+          <p>Lead Speaker: Dr. Yele Okeremi - CEO PFS Transformation, ARM</p>
+        </div>
         
       </div>
     </div>
@@ -326,11 +343,166 @@ section2.addEventListener('click', () => {
 
 <article>
   <div class="container-fluid">
-    <div class="row border-bottom-0">
+    <div class="row">
       <div class="col-md-3 time-section">
         <div class="d-flex">
           <i class="bi bi-clock px-2"></i>
-          <p>02:00PM - 02:10PM</p>
+          <p>01:05PM - 01:50PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANEL DISCUSSION I: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+          
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>MODERATOR: </h4>
+      </div>
+      <div class="col-md-4 speaker-section text-start">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Mr. Musa Ali Baba - PSI Global</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLISTS </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 1: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Dr. Rislan Kanya - Deputy Vice Chancellor, Innovation and ICT Baze University</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 2: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Mr. Yusuf Bashir - CEO Satoshi Captial, Advisors & KICT Lab</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 3: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Dr. Wunmi Hassan - CEO HiTech Center for Women and Youth</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 4: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="d-flex flex-column">
+          <p>DR Thuweba Diwani - Gesellschaft fuer internationale Zusammenarbeit (GIZ) GmbH.</p>
+          <p>Designation: Head of Programme, Digital Transformation Center Nigeria</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELIST 5: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Dr. Nasir Ali Shinkafi - Galaxy Backbone</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>01:50PM - 02:00PM</p>
         </div> 
       </div>
       <div class="col-md-5 title-section">
@@ -342,7 +514,225 @@ section2.addEventListener('click', () => {
       </div>
     </div>
   </div>
-</article>`;
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>12:45PM - 01:05PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PLENARY I</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clipboard2-check"></i>
+          <p>Topic:</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>ACHIEVING INCLUSIVE GROWTH IN THE FACE OF DIGITAL TRANSFORMATION AND THE FUTURE OF WORK.</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="d-flex flex-column">
+          <p>Guest Speech: Saadia Zahiri - MD (World Economic Forum)</p>
+          <p>Lead Speaker: Dr. Yele Okeremi - CEO PFS Transformation, ARM</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>01:05PM - 01:50PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANEL DISCUSSION I: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+          
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>MODERATOR: </h4>
+      </div>
+      <div class="col-md-4 speaker-section text-start">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Mr. Musa Ali Baba - PSI Global</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLISTS </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 1: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Dr. Rislan Kanya - Deputy Vice Chancellor, Innovation and ICT Baze University</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 2: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Mr. Yusuf Bashir - CEO Satoshi Captial, Advisors & KICT Lab</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 3: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Dr. Wunmi Hassan - CEO HiTech Center for Women and Youth</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 4: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="d-flex flex-column">
+          <p>DR Thuweba Diwani - Gesellschaft fuer internationale Zusammenarbeit (GIZ) GmbH.</p>
+          <p>Designation: Head of Programme, Digital Transformation Center Nigeria</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELIST 5: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Dr. Nasir Ali Shinkafi - Galaxy Backbone</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row border-bottom-0">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>01:50PM - 02:00PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>QUESTIONS AND ANSWERS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+`;
 });
 
 section3.addEventListener('click', () => {
@@ -585,6 +975,7 @@ day1.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
+          
         </div>
       </div>
     </div>
@@ -608,7 +999,6 @@ day1.addEventListener('click', () => {
             <p>Kashifu Inuwa Adbullahi</p>
             <p>Director-General, National Information Technology Development Agency</p>
           </div>
-          
         </div>
       </div>
     </div>
@@ -629,7 +1019,7 @@ day1.addEventListener('click', () => {
           <span class="sides"></span>
           <div>
             <p>Prof. Isa Ali Ibrahim (Pantami) <span>FNCS, FBCS, FIIM, MCPN</span> </p>
-  
+
             <p>Hon. Minister, Federal Ministry of Communications and Digital Economy.</p>
           </div>
           
@@ -653,9 +1043,8 @@ day1.addEventListener('click', () => {
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
           <div>
-            <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>
-            
-          </div>
+            <P>"An overview of Digital Transformation: A Path to Sustainable Digital Economy"</P>                   
+          </div>                  
         </div>
       </div>
     </div>
@@ -666,7 +1055,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>11:20AM - 12:00PM</p>
+            <p>11:20AM - 11:40PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -686,7 +1075,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>12:00PM - 12:10PM</p>
+            <p>11:40PM - 11:45PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -694,11 +1083,43 @@ day1.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-          <div>
-            <p>By Mr Alor Nwankwo</p>
-            <p>Permanent Secretary Federal Ministry of Communication and Digital Economy</p>
-          </div>
-  
+          <p>Dr Alo Nwankwo, permanent Secretary Federal Ministry of Communications and Digital Economy</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>11:45PM - 11:55PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>NATIONAL ANTHEM</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>11:55PM - 12:10PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>GROUP PHOTOGRAPH</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
         </div>
       </div>
     </div>
@@ -727,25 +1148,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>12:25PM - 12:30PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>GROUP PHOTOGRAPH</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>12:30PM - 12:35PM</p>
+            <p>12:25PM - 12:35PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -783,17 +1186,17 @@ day1.addEventListener('click', () => {
     parent2.style.borderBottom = '2px solid #081c15';
     parent3.style.borderBottom = 'none';
 
-    tables.innerHTML = `article>
+    tables.innerHTML = `<article>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>01:15PM - 02:00PM</p>
+            <p>12:45PM - 01:05PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION I</h4>
+          <h4>PLENARY I</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -816,6 +1219,10 @@ day1.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
+          <div class="d-flex flex-column">
+            <p>Guest Speech: Saadia Zahiri - MD (World Economic Forum)</p>
+            <p>Lead Speaker: Dr. Yele Okeremi - CEO PFS Transformation, ARM</p>
+          </div>
           
         </div>
       </div>
@@ -824,11 +1231,166 @@ day1.addEventListener('click', () => {
   
   <article>
     <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>01:05PM - 01:50PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANEL DISCUSSION I: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+            
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>MODERATOR: </h4>
+        </div>
+        <div class="col-md-4 speaker-section text-start">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Mr. Musa Ali Baba - PSI Global</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLISTS </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 1: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Dr. Rislan Kanya - Deputy Vice Chancellor, Innovation and ICT Baze University</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 2: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Mr. Yusuf Bashir - CEO Satoshi Captial, Advisors & KICT Lab</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 3: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Dr. Wunmi Hassan - CEO HiTech Center for Women and Youth</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 4: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="d-flex flex-column">
+            <p>DR Thuweba Diwani - Gesellschaft fuer internationale Zusammenarbeit (GIZ) GmbH.</p>
+            <p>Designation: Head of Programme, Digital Transformation Center Nigeria</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELIST 5: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Dr. Nasir Ali Shinkafi - Galaxy Backbone</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
       <div class="row border-bottom-0">
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:00PM - 02:10PM</p>
+            <p>01:50PM - 02:00PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">

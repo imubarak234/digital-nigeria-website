@@ -1731,11 +1731,11 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:10PM - 02:55PM</p>
+            <p>03:15PM - 03:35PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION II</h4>
+          <h4>PLENARY III</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1754,12 +1754,13 @@ day1.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DRIVING GROWTH AND UNLOCKING INNOVATIONS THROUGH REGULATIONS FOR A SUSTAINABLE DIGITAL ECONOMY.</h4>
+          <h4>DATA PROTECTION AND NATIONAL SECURITY: HARNESSING DATA TO SOLVE INSECURITY PROBLEMS IN NIGERIA</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-          <div>
-            
+          <div class="d-flex flex-column">
+            <p>Speaker I: Dr. Vincent O. Olatunji - NC/CEO National Data Protection Bureau (NDPB)</p>
+            <p>Speaker II: Basil Udotai - Managing Partner Technology Advisor</p>
           </div>
           
         </div>
@@ -1773,11 +1774,11 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:55PM - 03:05PM</p>
+            <p>03:35PM - 04:20PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>QUESTIONS AND ANSWERS</h4>
+          <h4>PANEL DISCUSSION III: </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1791,54 +1792,145 @@ day1.addEventListener('click', () => {
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>03:05PM - 03:50PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION III</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Topic:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>DATA PROTECTION AND NATIONAL SECURITY: HERNESSING DATA TO SOLVE INSECURITY PROBLEMS IN NIGERIA..</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div>
+          <i class="bi bi-check-circle"></i>
             
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>MODERATOR: </h4>
+        </div>
+        <div class="col-md-4 speaker-section text-start">
+          <span class="sides"></span>
+          <p>General Samuel Akinsode - Office of the National Security Adviser (ONSA)</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLISTS </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 1: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Olawale Popoola - Project Coordinator, Nigeria Digital Identification for Development (ID4D) Project</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 2: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Mr Smith Osemeke - MD/CEO Unitellas International Limited</p>
           </div>
           
         </div>
       </div>
     </div>
   </article>
-  
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 3: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Hadiza Dagabna - Director Legal, National Identity Management Commission</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 4: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Sholinka Shodunke CIO MTN</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELIST 5: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Dr Mbanaso HOD Cybersecurity Center, Nasarawa State University.</p>
+        </div>
+      </div>
+    </div>
+  </article>
   <article>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:50PM - 04:00PM</p>
+            <p>04:20PM - 04:30PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>QUESTIONS AND ANSWERS</h4>
+          <h4>QUESTIONS AND ANSWERS TWO (2) RAPPORTEURS: </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1853,7 +1945,7 @@ day1.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>04:00PM</p>
+            <p>04:30PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -1903,7 +1995,7 @@ day2.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>DAY TWO BLOCKCHAIN DAY</h4>
+          <h4>DAY TWO BLOCKCHAIN SUMMIT</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1921,7 +2013,7 @@ day2.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>REGISTRATION, RECOGNITION OF VIPs & SPECIAL GUESTS</h4>
+          <h4>WELCOMING/REGISTRATION</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1935,11 +2027,11 @@ day2.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>09:00AM - 09-30AM</p>
+            <p>09:00AM - 09:45AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>RE-CAP OF PREVIOUS DAY'S DELIBRATIONS</h4>
+          <h4>RED CARPET/ARRIVAL, RECOGNITION OF VIPs & SPECIAL GUESTS</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1953,11 +2045,129 @@ day2.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>10:00PM - 10:45PM</p>
+            <p>09:45AM - 10:00AM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION I</h4>
+          <h4>OPENING ACT</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>10:00AM - 02:25PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PLENARY I</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>10:00AM - 10:05AM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>BRIEF HIGHLIGHTS OF THE BLOCKCHAIN DAY</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <P>Mr. Mohammed Ibrahim Jega Co-Founder, Domineum Blockchain Solutions Limited</P>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>10:05AM - 10:25AM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>KEYNOTE SPEAKER 1: "BLOCKCHAIN FOR DIGITAL TRANSFORMATION"</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Ray Sharma - General Partner, Pacer Ventures</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>10:55AM - 11:15AM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>KEYNOTE SPEAKER 2: "BLOCKCHAIN FOR GOVERNMENT & SMART CITIES"</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Ahmed Yousif - Lead of BSV Blockchain for Government Initiative Middle East, BSV Blockchain</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>11:15AM - 11:30AM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>GUEST SPEAKER 1: "BLOCKCHAIN FOR YOUTH EMPOWERMENT"</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Ray Youssef - Founder/CEO of Paxful</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>11:30AM - 12:15PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANEL DISCUSSION I: </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1976,7 +2186,64 @@ day2.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>BLOCKCHAIN DISRUPTION AND SMART CONTRACTS: IMPLICATION FOR THE NIGERIAN TECH ECOSYSTEM</h4>
+          <h4>IMPACT OF BLOCKCHAIN ON A DIGITAL ECONOMY: THE MYTH, THE TRUTH AND THE OPPORTUNITIES</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+            
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>MODERATOR: </h4>
+        </div>
+        <div class="col-md-4 speaker-section text-start">
+          <span class="sides"></span>
+          <p>Faith Titus Okafor Mbah - Founder/CEO, Sonergy Data Technologies & Co-Founder Blockchain Nigeria User Group.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+            
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>LEAD SPEAKER: </h4>
+        </div>
+        <div class="col-md-4 speaker-section text-start">
+          <span class="sides"></span>
+          <p>Dr Usman Gambo Abdullahi - Director, IT Infrastructure Solutions, NITDA</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLISTS </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -1987,11 +2254,90 @@ day2.addEventListener('click', () => {
   </article>
   <article>
     <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 1: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">David Sharma - Chairman, Pacer Labs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 2: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Satesh Melwani - MD, Melsons GroupLead Speaker</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 3: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Dr. Ibrahim Dauda - President PVG Consult</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 4: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Ahmed Yousif - Lead of BSV Blockchain for Government Initiative Middle East, BSV Blockchain</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
       <div class="row border-bottom-0">
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>10:45AM - 10:55AM</p>
+            <p>12:15PM - 12:25PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -2003,7 +2349,8 @@ day2.addEventListener('click', () => {
         </div>
       </div>
     </div>
-  </article>`;
+  </article>
+  `;
   });
 
   section5.addEventListener('click', () => {
@@ -2011,17 +2358,79 @@ day2.addEventListener('click', () => {
     parent5.style.borderBottom = '2px solid #081c15';
     parent6.style.borderBottom = 'none';
 
-    tables.innerHTML = `<article>
+    tables.innerHTML = `
+    <article>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>10:55PM - 11:40PM</p>
+            <p>12:25PM - 12:40PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION II</h4>
+          <h4>GUEST SPEAKER 2: "BLOCKCHAIN PAYMENTS AND REMITTANCE FOR AFRICA"</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Lorien Gamaroff - Founder/CEO, Centbee</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>12:40PM - 12:55PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>GUEST SPEAKER 3: "BLOCKCHAIN FOR EDUCATION: SOCIAL AND FINANCIAL INCLUSION FOR NIGERIAN YOUTHS"</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">James L. Sisneros - Founder & CEO, The Possibility Company</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>12:55PM - 01:30PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>LUNCH BREAK</h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          
+        </div>
+      </div>
+    </div>
+  
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>01:30AM - 02:15PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANEL DISCUSSION II: </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -2040,12 +2449,10 @@ day2.addEventListener('click', () => {
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>IMPACT OF CRYPTOCURRENCIES ON THE NIGERIAN ECONOMY AND THE INTRODUCTION OF THE ENAIRA</h4>
+          <h4>PRIORITIZING BLOCKCHAIN TECHNOLOGY: IMPLICATION FOR DIGITAL ASSET INNOVATION</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-         
-          
         </div>
       </div>
     </div>
@@ -2056,12 +2463,49 @@ day2.addEventListener('click', () => {
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:40PM - 11:50PM</p>
+          <i class="bi bi-check-circle"></i>
+            
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>QUESTIONS AND ANSWERS</h4>
+          <h4>MODERATOR: </h4>
+        </div>
+        <div class="col-md-4 speaker-section text-start">
+          <span class="sides"></span>
+          <p>Senator Ihenyen - President, Stakeholders in Blockchain Technology Association of Nigeria (SiBAN).</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+            
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>LEAD SPEAKER: </h4>
+        </div>
+        <div class="col-md-4 speaker-section text-start">
+          <span class="sides"></span>
+          <p>Saminu Salisu - CTO, Bilic.io</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLISTS </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
@@ -2075,15 +2519,37 @@ day2.addEventListener('click', () => {
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:50PM - 12:35PM</p>
+            <i class="bi bi-check-circle"></i>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION III</h4>
+          <h4>PANELLIST 1: </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Chimezie Chuta - Founder, Blockchain Nigeria User Group</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-check-circle"></i>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>PANELLIST 2: </h4>
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <div class="w-100">
+            <p class="text-start">Jennifer Chizua - CEO Startprenuers</p>
+          </div>
           
         </div>
       </div>
@@ -2094,37 +2560,35 @@ day2.addEventListener('click', () => {
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Topic:</p>
+            <i class="bi bi-check-circle"></i>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>VALUE PROPOSITION AND VIABILITY OF BLOCKCHAIN REGULATIONS TOWARDS BUILDING A DIGITAL NIGERIA</h4>
+          <h4>PANELLIST 3: </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-         
-          
+          <div class="w-100">
+            <p class="text-start">Salisu Uba - Founder/Managing Partner, NatQuest Limited</p>
+          </div>
         </div>
       </div>
     </div>
   </article>
-  
   <article>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 time-section">
           <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>12:35PM - 12:45PM</p>
+          <i class="bi bi-check-circle"></i>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>QUESTIONS AND ANSWERS</h4>
+          <h4>PANELLIST 4: </h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-          
+          <p>Saeed Mohammed Ali Alhebsi - Advisor AI & Snr Project Mngr, UAE Ministry of HR & Emiratisation</p>
         </div>
       </div>
     </div>
@@ -2135,11 +2599,11 @@ day2.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>12:45PM - 01:45PM</p>
+            <p>02:15PM - 02:25PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
-          <h4>LUNCH</h4>
+          <h4>QUESTIONS AND ANSWERS</h4>
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>

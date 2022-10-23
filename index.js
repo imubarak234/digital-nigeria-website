@@ -1114,344 +1114,348 @@ day1.addEventListener('click', () => {
   const parent2 = section12.parentNode;
   const parent3 = section13.parentNode;
 
+  const entry1 = `<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>COMPERE: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100 text-start">
+          <p>Mr Inye Kem Abonta</p>
+          <p>Mrs Uwa Suleiman</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>08:30AM - 09:00AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>REGISTRATION OF PARTICIPANTS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>09:00AM - 09:55AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>ARRIVAL OF VIPS, REGISTRATION OF VIPS, SPECIAL GUESTS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>09:55AM - 10:00AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>RECOGNITION OF PARTICIPANTS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:00AM - 10:15AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>NATIONAL ANTHEM</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:15AM - 10:25AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>OPENING SPEECH AND PROGRAM HIGHLIGHT</h4>
+        
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div>
+          <p>Kashifu Inuwa Adbullahi</p>
+          <p>Director-General, National Information Technology Development Agency</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:25AM - 10:30AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>KEYNOTE: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Jimmy Nguyen CEO, Blockchain for All</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:30AM - 10:35PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>KEYNOTE: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Deemah Yahya A. Alyahya; Secretary General Digital Coorperation Organisation</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:35AM - 10:40AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>KEYNOTE: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <P>H.E. Mr Ousman A. Bah. Honorable Minister. Ministry of Communications and Digital Economy</P>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:40AM - 11:20AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>KEYNOTE SPEAKER:</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div>
+          <p>Prof. Isa Ali Ibrahim (Pantami) <span>FNCS, FBCS, FIIM, MCPN</span> </p>
+
+          <p>Hon. Minister, Federal Ministry of Communications and Digital Economy.</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:20AM - 11:40AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>UNVEILING OF BOOKS: </h4>
+        
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div>
+          <P>"Skills Rather than Just Degrees"</P>
+          <p>Isa Ali Ibrahim Pantami: Advancing Nigeria's Drive Towards a Digital Economy</p>                   
+        </div>                  
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:40PM - 11:45PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>VOTE OF THANKS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Dr Alo Nwankwo, permanent Secretary Federal Ministry of Communications and Digital Economy</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:45PM - 11:55PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>NATIONAL ANTHEM</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:55PM - 12:10PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>GROUP PHOTOGRAPH</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>12:10PM - 12:25PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>EXHIBITION/MINI TOUR OF EXHIBITION BOOTHS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>12:25PM - 12:35PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>DEPARTURE OF MR. PRESIDENT AND ENTOURAGE</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<div id="patners-title"></div>
+<article>
+  <div class="container-fluid">
+    <div class="row border-bottom-0">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>12:35PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>TEA BREAK</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>`
+
+tables.innerHTML = entry1;
+
   section11.addEventListener('click', () => {
     parent1.style.borderBottom = '2px solid #081c15';
     parent2.style.borderBottom = 'none';
     parent3.style.borderBottom = 'none';
 
-    tables.innerHTML = `<article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>COMPERE: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100 text-start">
-            <p>Mr Inye Kem Abonta</p>
-            <p>Mrs Uwa Suleiman</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>08:30AM - 09:00AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>REGISTRATION OF PARTICIPANTS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>09:00AM - 09:55AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>ARRIVAL OF VIPS, REGISTRATION OF VIPS, SPECIAL GUESTS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>09:55AM - 10:00AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>RECOGNITION OF PARTICIPANTS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:00AM - 10:15AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>NATIONAL ANTHEM</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:15AM - 10:25AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>OPENING SPEECH AND PROGRAM HIGHLIGHT</h4>
-          
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div>
-            <p>Kashifu Inuwa Adbullahi</p>
-            <p>Director-General, National Information Technology Development Agency</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:25AM - 10:30AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>KEYNOTE: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Jimmy Nguyen CEO, Blockchain for All</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:30AM - 10:35PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>KEYNOTE: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <p>Deemah Yahya A. Alyahya; Secretary General Digital Coorperation Organisation</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:35AM - 10:40AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>KEYNOTE: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <P>H.E. Mr Ousman A. Bah. Honorable Minister. Ministry of Communications and Digital Economy</P>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:40AM - 11:20AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>KEYNOTE SPEAKER:</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div>
-            <p>Prof. Isa Ali Ibrahim (Pantami) <span>FNCS, FBCS, FIIM, MCPN</span> </p>
-  
-            <p>Hon. Minister, Federal Ministry of Communications and Digital Economy.</p>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:20AM - 11:40AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>UNVEILING OF BOOKS: </h4>
-          
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div>
-            <P>"Skills Rather than Just Degrees"</P>
-            <p>Isa Ali Ibrahim Pantami: Advancing Nigeria's Drive Towards a Digital Economy</p>                   
-          </div>                  
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:40PM - 11:45PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>VOTE OF THANKS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <p>Dr Alo Nwankwo, permanent Secretary Federal Ministry of Communications and Digital Economy</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:45PM - 11:55PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>NATIONAL ANTHEM</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:55PM - 12:10PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>GROUP PHOTOGRAPH</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>12:10PM - 12:25PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>EXHIBITION/MINI TOUR OF EXHIBITION BOOTHS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>12:25PM - 12:35PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>DEPARTURE OF MR. PRESIDENT AND ENTOURAGE</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <div id="patners-title"></div>
-  <article>
-    <div class="container-fluid">
-      <div class="row border-bottom-0">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>12:35PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>TEA BREAK</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>`;
+    tables.innerHTML = entry1;
   });
 
   section12.addEventListener('click', () => {
@@ -2214,395 +2218,402 @@ day2.addEventListener('click', () => {
   const parent5 = section5.parentNode;
   const parent6 = section6.parentNode;
 
+  const entry2 = `<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>26th OCTOBER 2022</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>DAY TWO BLOCKCHAIN SUMMIT</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>08:00AM - 09:00AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>WELCOMING/REGISTRATION</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>09:00AM - 09:45AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>RED CARPET/ARRIVAL, RECOGNITION OF VIPs & SPECIAL GUESTS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>09:45AM - 09:50AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>OPENING REMARKS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Kashifu Inuwa Abdullahi CCIE, DG NITDA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>09:50AM - 10:00AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>TEA BREAK/NETWORKING</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:00AM - 02:15PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PLENARY I</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:00AM - 10:05AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>BRIEF HIGHLIGHTS OF THE BLOCKCHAIN DAY</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div>
+          <P>Mr. Mohammed Ibrahim Jega Co-Founder, Domineum Blockchain Solutions Limited</P>
+          <p>Compere: Mr David Olumuyiwa Dada</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:05AM - 10:25AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>KEYNOTE SPEAKER 1: "BLOCKCHAIN FOR DIGITAL TRANSFORMATION"</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Ray Sharma - General Partner, Pacer Ventures</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:25AM - 10:45AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>KEYNOTE SPEAKER 2: "BLOCKCHAIN FOR GOVERNMENT & SMART CITIES"</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Ahmed Yousif - Lead of BSV Blockchain for Government Initiative Middle East, BSV Blockchain</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:45AM - 11:00AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>GUEST SPEAKER 1: "BLOCKCHAIN FOR YOUTH EMPOWERMENT"</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Ray Youssef - Founder/CEO of Paxful</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:00AM - 11:45PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANEL DISCUSSION I: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clipboard2-check"></i>
+          <p>Topic:</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>IMPACT OF BLOCKCHAIN ON A DIGITAL ECONOMY: THE MYTH, THE TRUTH AND THE OPPORTUNITIES</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+          
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>MODERATOR: </h4>
+      </div>
+      <div class="col-md-4 speaker-section text-start">
+        <span class="sides"></span>
+        <p>Faith Titus Okafor Mbah - Founder/CEO, Sonergy Data Technologies & Co-Founder Blockchain Nigeria User Group.</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+          
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>LEAD SPEAKER: </h4>
+      </div>
+      <div class="col-md-4 speaker-section text-start">
+        <span class="sides"></span>
+        <p>Dr Usman Gambo Abdullahi - Director, IT Infrastructure Solutions, NITDA</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLISTS </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 1: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Ray Youssef - Founder/CEO of Paxful</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 2: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Raad Aswani - Group Managing Advisor, TradelandFX Holding Ltd.</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 3: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Dr. Ibrahim Dauda - President PVG Consult</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 4: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <p>Ahmed Yousif - Lead of BSV Blockchain for Government Initiative Middle East, BSV Blockchain</p>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row border-bottom-0">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:45PM - 11:55PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>QUESTIONS AND ANSWERS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>`;
+
+tables.innerHTML = entry2;
+
   section4.addEventListener('click', () => {
     parent4.style.borderBottom = '2px solid #081c15';
     parent5.style.borderBottom = 'none';
     parent6.style.borderBottom = 'none';
 
-    tables.innerHTML = `<article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>26th OCTOBER 2022</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>DAY TWO BLOCKCHAIN SUMMIT</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>08:00AM - 09:00AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>WELCOMING/REGISTRATION</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>09:00AM - 09:45AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>RED CARPET/ARRIVAL, RECOGNITION OF VIPs & SPECIAL GUESTS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>09:45AM - 09:50AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>OPENING REMARKS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Kashifu Inuwa Abdullahi CCIE, DG NITDA</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>09:50AM - 10:00AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>TEA BREAK/NETWORKING</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:00AM - 02:15PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PLENARY I</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:00AM - 10:05AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>BRIEF HIGHLIGHTS OF THE BLOCKCHAIN DAY</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <P>Mr. Mohammed Ibrahim Jega Co-Founder, Domineum Blockchain Solutions Limited</P>
-          <p>Compere: Mr David Olumuyiwa Dada</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:05AM - 10:25AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>KEYNOTE SPEAKER 1: "BLOCKCHAIN FOR DIGITAL TRANSFORMATION"</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Ray Sharma - General Partner, Pacer Ventures</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:25AM - 10:45AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>KEYNOTE SPEAKER 2: "BLOCKCHAIN FOR GOVERNMENT & SMART CITIES"</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <p>Ahmed Yousif - Lead of BSV Blockchain for Government Initiative Middle East, BSV Blockchain</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:45AM - 11:00AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>GUEST SPEAKER 1: "BLOCKCHAIN FOR YOUTH EMPOWERMENT"</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Ray Youssef - Founder/CEO of Paxful</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:00AM - 11:45PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION I: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Topic:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>IMPACT OF BLOCKCHAIN ON A DIGITAL ECONOMY: THE MYTH, THE TRUTH AND THE OPPORTUNITIES</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-            
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>MODERATOR: </h4>
-        </div>
-        <div class="col-md-4 speaker-section text-start">
-          <span class="sides"></span>
-          <p>Faith Titus Okafor Mbah - Founder/CEO, Sonergy Data Technologies & Co-Founder Blockchain Nigeria User Group.</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-            
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>LEAD SPEAKER: </h4>
-        </div>
-        <div class="col-md-4 speaker-section text-start">
-          <span class="sides"></span>
-          <p>Dr Usman Gambo Abdullahi - Director, IT Infrastructure Solutions, NITDA</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLISTS </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 1: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Ray Youssef - Founder/CEO of Paxful</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 2: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <p>Raad Aswani - Group Managing Advisor, TradelandFX Holding Ltd.</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 3: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Dr. Ibrahim Dauda - President PVG Consult</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 4: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <p>Ahmed Yousif - Lead of BSV Blockchain for Government Initiative Middle East, BSV Blockchain</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row border-bottom-0">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:45PM - 11:55PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>QUESTIONS AND ANSWERS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>`;
+    tables.innerHTML = entry2;
   });
 
   section5.addEventListener('click', () => {
@@ -3361,509 +3372,531 @@ day3.addEventListener('click', () => {
   const parent5 = section8.parentNode;
   const parent6 = section9.parentNode;
 
+  const entry3 = `<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>27th OCTOBER 2022</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>STARTUP & INNOVATION ECOSYSTEM DAY</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>08:00AM - 09:00AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>REGISTRATION, RECOGNITION OF VIPs & SPECIAL GUESTS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>09:00AM - 09:30AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>RE-CAP OF PREVIOUS DAY'S DELIBERATIONS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>09:00AM - 10-00AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>TEA/COFFE</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:00AM - 01:00PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PLENARY I</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:05AM - 10:15AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>LEAD SPEECH: "INNOVATIVE ECOSYSTEM AND INVESTORS"</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">MD, Melsons Group, Satesh Melwani</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>10:15AM - 11:00AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANEL DISCUSSION I(Main Hall): </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clipboard2-check"></i>
+          <p>Topic:</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>BUILDING A THRIVING AND SUSTAINABLE STARTUP AND INNOVATION ECOSYSTEM FOR NIGERIA'S DIGITAL ECONOMY</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+          
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>MODERATOR: </h4>
+      </div>
+      <div class="col-md-4 speaker-section text-start">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Mohammed I. Jega - Co-Founder, Domineum.io</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+          
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>LEAD SPEAKER: </h4>
+      </div>
+      <div class="col-md-4 speaker-section text-start">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Michael Simeon - Founder, vpd.money</p>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLISTS </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 1: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Maryam Gwadabe - Founder, Blue Sapphire Hub</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 2: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">David Edoja - Founder, Analytics Intelligence</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 3: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Tobi Ololade - CEO, Doja.io</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 4: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Saminu Tanimu - Founder/CTO, Bilic.io</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:00AM - 11:10AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>QUESTIONS AND ANSWERS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:10AM - 11:55AM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANEL DISCUSSION II(Executive Hall): </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clipboard2-check"></i>
+          <p>Topic:</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>A TENT APPROACH TO ADDRESSING THE TALENT GAP ISSUES</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+          
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>MODERATOR: </h4>
+      </div>
+      <div class="col-md-4 speaker-section text-start">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">David Afolayan - CEO, Technext</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+          
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>LEAD SPEAKER: </h4>
+      </div>
+      <div class="col-md-4 speaker-section text-start">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Hadiza Saidu - MD, Pacer Labs</p>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLISTS </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 1: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Khalil Halilu - Founder, Shapshap.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 2: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Saidu Abdullahi - CEO, Procentric IQ</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 3: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Tochukwu Chukwueke - Founder, Clintonel Innovation Center</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+        <i class="bi bi-check-circle"></i>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>PANELLIST 4: </h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        <div class="w-100">
+          <p class="text-start">Abdulganiyu Rufai - CEO, Digital Development Hub</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container-fluid">
+    <div class="row border-bottom-0">
+      <div class="col-md-3 time-section">
+        <div class="d-flex">
+          <i class="bi bi-clock px-2"></i>
+          <p>11:55AM - 12:05PM</p>
+        </div> 
+      </div>
+      <div class="col-md-5 title-section">
+        <h4>QUESTIONS AND ANSWERS</h4>
+      </div>
+      <div class="col-md-4 speaker-section">
+        <span class="sides"></span>
+        
+      </div>
+    </div>
+  </div>
+</article>`;
+
+tables.innerHTML = entry3;
+
   section7.addEventListener('click', () => {
     parent4.style.borderBottom = '2px solid #081c15';
     parent5.style.borderBottom = 'none';
     parent6.style.borderBottom = 'none';
 
-    tables.innerHTML = `<article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>27th OCTOBER 2022</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>STARTUP & INNOVATION ECOSYSTEM DAY</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>08:00AM - 09:00AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>REGISTRATION, RECOGNITION OF VIPs & SPECIAL GUESTS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>09:00AM - 09:30AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>RE-CAP OF PREVIOUS DAY'S DELIBERATIONS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>09:00AM - 10-00AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>TEA/COFFE</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:00AM - 01:00PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PLENARY I</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:05AM - 10:15AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>LEAD SPEECH: "INNOVATIVE ECOSYSTEM AND INVESTORS"</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">MD, Melsons Group, Satesh Melwani</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>10:15AM - 11:00AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION I(Main Hall): </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Topic:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>BUILDING A THRIVING AND SUSTAINABLE STARTUP AND INNOVATION ECOSYSTEM FOR NIGERIA'S DIGITAL ECONOMY</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-            
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>MODERATOR: </h4>
-        </div>
-        <div class="col-md-4 speaker-section text-start">
-          <span class="sides"></span>
-          <p>Mohammed I. Jega - Co-Founder, Domineum.io</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-            
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>LEAD SPEAKER: </h4>
-        </div>
-        <div class="col-md-4 speaker-section text-start">
-          <span class="sides"></span>
-          <p>Michael Simeon - Founder, vpd.money</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLISTS </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 1: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Maryam Gwadabe - Founder, Blue Sapphire Hub</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 2: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <p>David Edoja - Founder, Analytics Intelligence</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 3: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Tobi Ololade - CEO, Doja.io</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 4: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Saminu Tanimu - Founder/CTO, Bilic.io</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:00AM - 11:10AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>QUESTIONS AND ANSWERS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:10AM - 11:55AM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANEL DISCUSSION II(Executive Hall): </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clipboard2-check"></i>
-            <p>Topic:</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>A TENT APPROACH TO ADDRESSING THE TALENT GAP ISSUES</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-            
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>MODERATOR: </h4>
-        </div>
-        <div class="col-md-4 speaker-section text-start">
-          <span class="sides"></span>
-          <p>David Afolayan - CEO, Technext</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-            
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>LEAD SPEAKER: </h4>
-        </div>
-        <div class="col-md-4 speaker-section text-start">
-          <span class="sides"></span>
-          <p>Hadiza Saidu - MD, Pacer Labs</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLISTS </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 1: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Khalil Halilu - Founder, Shapshap.com</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 2: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <p>Saidu Abdullahi - CEO, Procentric IQ</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 3: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Tochukwu Chukwueke - Founder, Clintonel Innovation Center</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-          <i class="bi bi-check-circle"></i>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>PANELLIST 4: </h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          <div class="w-100">
-            <p class="text-start">Abdulganiyu Rufai - CEO, Digital Development Hub</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article>
-    <div class="container-fluid">
-      <div class="row border-bottom-0">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            <i class="bi bi-clock px-2"></i>
-            <p>11:55AM - 12:05PM</p>
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>QUESTIONS AND ANSWERS</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
-          
-        </div>
-      </div>
-    </div>
-  </article>`;
+    tables.innerHTML = entry3;
   });
 
   section8.addEventListener('click', () => {
@@ -3943,7 +3976,10 @@ day3.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section text-start">
           <span class="sides"></span>
-          <p>Jude Ozinegbe - Founder, Cyberchain</p>
+          <div class="w-100">
+            <p class="text-start">Jude Ozinegbe - Founder, Cyberchain</p>
+          </div>
+         
         </div>
       </div>
     </div>
@@ -4018,7 +4054,10 @@ day3.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-          <p>Bashir Yusuf Ahmed - CEO, Etijar</p>
+          <div class="w-100">
+            <p class="text-start">Bashir Yusuf Ahmed - CEO, Etijar</p>
+          </div>
+        
         </div>
       </div>
     </div>
@@ -4315,22 +4354,7 @@ day3.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-        </div>
-      </div>
-    </div>
-  </article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 time-section">
-          <div class="d-flex">
-            
-          </div> 
-        </div>
-        <div class="col-md-5 title-section">
-          <h4>CLOSING CEREMONY</h4>
-        </div>
-        <div class="col-md-4 speaker-section">
-          <span class="sides"></span>
+          <p>Prof. Isa Ali Ibrahim (Pantami) Honourable Minister, Federal Ministry of Communications and Digital Economy, Abuja</p>
         </div>
       </div>
     </div>
@@ -4341,7 +4365,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:30PM - 02:40PM</p>
+            <p>03:30PM - 03:40PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -4359,7 +4383,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:40PM - 02:50PM</p>
+            <p>03:40PM - 03:50PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -4377,7 +4401,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>02:50PM - 03:00PM</p>
+            <p>03:50PM - 04:00PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -4396,7 +4420,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:00PM - 03:05PM</p>
+            <p>04:00PM - 04:05PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -4414,7 +4438,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:05PM - 03:15PM</p>
+            <p>04:05PM - 04:15PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -4434,7 +4458,27 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:15PM - 03:45PM</p>
+            <p>04:15PM - 04:25PM</p>
+          </div> 
+        </div>
+        <div class="col-md-5 title-section">
+          <h4>INAUGURATION OF THE DIGITAL ECONOMY INDUSTRY WORKING GROUP(DEIWG)</h4>
+          
+        </div>
+        <div class="col-md-4 speaker-section">
+          <span class="sides"></span>
+          <p>Honourable Minister of Communications & Digital Economy</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 time-section">
+          <div class="d-flex">
+            <i class="bi bi-clock px-2"></i>
+            <p>04:25PM - 04:35PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -4454,7 +4498,7 @@ day3.addEventListener('click', () => {
         <div class="col-md-3 time-section">
           <div class="d-flex">
             <i class="bi bi-clock px-2"></i>
-            <p>03:45AM - 03:50PM</p>
+            <p>04:35AM - 04:40PM</p>
           </div> 
         </div>
         <div class="col-md-5 title-section">
@@ -4483,7 +4527,9 @@ day3.addEventListener('click', () => {
         </div>
         <div class="col-md-4 speaker-section">
           <span class="sides"></span>
-          
+          <p>Moderator: </p>
+          <p>NTA or Channels Rep</p>
+          <p>Bayero Agabi</p>
         </div>
       </div>
     </div>

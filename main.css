@@ -31,7 +31,6 @@
 body {
   font-family: 'Roboto Slab', serif;
   padding-top: 95px;
-  border: 2px solid black;
 }
 
 html {
@@ -441,6 +440,11 @@ video {
   width: 100%;
   height: 100%;
   position: absolute;
+}
+
+#lives iframe {
+  width: 100%;
+  height: 100vh;
 }
 
 .fade-in {

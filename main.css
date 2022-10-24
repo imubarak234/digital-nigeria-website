@@ -153,7 +153,8 @@ nav ul {
 #speakers .underline,
 #agenda .underline,
 #patners .underline,
-#start-ups .underline {
+#start-ups .underline,
+#lives .underline {
   width: 20%;
   border-top: 2px solid green;
   padding: 1em 0;

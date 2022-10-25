@@ -539,6 +539,10 @@ video {
   #naver .inner-navs form {
     display: none;
   }
+
+  #lives iframe {
+    height: 65vh;
+  }
 }
 
 @media screen and (max-width: 825px) {
@@ -567,6 +571,10 @@ video {
 
   nav #header-form {
     display: none;
+  }
+
+  #lives iframe {
+    height: 45vh;
   }
 }
 
@@ -612,5 +620,9 @@ video {
 
   #dignitaries .row img {
     width: 65%;
+  }
+
+  #lives iframe {
+    height: 35vh;
   }
 }
